@@ -21,7 +21,7 @@ Top20Fams = names(sort(taxa_sums(ps_recharge_rarefied_families), TRUE)[1:20])
 Top20Fams
 
 #Replace the taxonomy of non-top families with "Other" manually to get 20 taxa w Other
-# write.csv(tax_table(ps_recharge_rarefied_families), "taxother_rarefied.csv")
+write.csv(tax_table(ps_recharge_rarefied_families), "taxother_rarefied.csv")
 
 #Assemble new phyloseq object with "other" in taxtable
 tax_table_other = read_excel(here::here("./analysis data/data frames and csvs/taxother_rarefied.xlsx"))

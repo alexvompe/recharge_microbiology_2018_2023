@@ -170,3 +170,143 @@ cor.test(formula=~percent_dead + ASV17, alternative = "less",
 model = lm(percent_dead ~ ASV17, data = df_endo_plob)
 summary(model)
 anova(model)
+
+#Pairwise adonis by date:
+ps_beta_relative = transform_sample_counts(ps_beta, function (x) {x/sum(x)})
+
+#Jul18
+Jul18 = subset_samples(ps_beta_relative, Date=="Jul18")
+distances = distance(Jul18, method = "unifrac", weighted = TRUE)
+df_Jul18 = pairwise.adonis(distances, sample_data(Jul18)$Coral)
+df_Jul18$Date = "Jul18"
+
+#Nov18
+Nov18 = subset_samples(ps_beta_relative, Date=="Nov18")
+distances = distance(Nov18, method = "unifrac", weighted = TRUE)
+df_Nov18 = pairwise.adonis(distances, sample_data(Nov18)$Coral)
+df_Nov18$Date = "Nov18"
+
+#Mar19
+Mar19 = subset_samples(ps_beta_relative, Date=="Mar19")
+distances = distance(Mar19, method = "unifrac", weighted = TRUE)
+df_Mar19 = pairwise.adonis(distances, sample_data(Mar19)$Coral)
+df_Mar19$Date = "Mar19"
+
+#Aug19
+Aug19 = subset_samples(ps_beta_relative, Date=="Aug19")
+distances = distance(Aug19, method = "unifrac", weighted = TRUE)
+df_Aug19 = pairwise.adonis(distances, sample_data(Aug19)$Coral)
+df_Aug19$Date = "Aug19"
+
+#Nov19
+Nov19 = subset_samples(ps_beta_relative, Date=="Nov19")
+distances = distance(Nov19, method = "unifrac", weighted = TRUE)
+df_Nov19 = pairwise.adonis(distances, sample_data(Nov19)$Coral)
+df_Nov19$Date = "Nov19"
+
+#Mar20
+Mar20 = subset_samples(ps_beta_relative, Date=="Mar20")
+distances = distance(Mar20, method = "unifrac", weighted = TRUE)
+df_Mar20 = pairwise.adonis(distances, sample_data(Mar20)$Coral)
+df_Mar20$Date = "Mar20"
+
+#Aug20
+Aug20 = subset_samples(ps_beta_relative, Date=="Aug20")
+distances = distance(Aug20, method = "unifrac", weighted = TRUE)
+df_Aug20 = pairwise.adonis(distances, sample_data(Aug20)$Coral)
+df_Aug20$Date = "Aug20"
+
+#May21
+May21 = subset_samples(ps_beta_relative, Date=="May21")
+distances = distance(May21, method = "unifrac", weighted = TRUE)
+df_May21 = pairwise.adonis(distances, sample_data(May21)$Coral)
+df_May21$Date = "May21"
+
+#Aug21
+Aug21 = subset_samples(ps_beta_relative, Date=="Aug21")
+distances = distance(Aug21, method = "unifrac", weighted = TRUE)
+df_Aug21 = pairwise.adonis(distances, sample_data(Aug21)$Coral)
+df_Aug21$Date = "Aug21"
+
+#Nov21
+Nov21 = subset_samples(ps_beta_relative, Date=="Nov21")
+distances = distance(Nov21, method = "unifrac", weighted = TRUE)
+df_Nov21 = pairwise.adonis(distances, sample_data(Nov21)$Coral)
+df_Nov21$Date = "Nov21"
+
+#Apr22
+Apr22 = subset_samples(ps_beta_relative, Date=="Apr22")
+distances = distance(Apr22, method = "unifrac", weighted = TRUE)
+df_Apr22 = pairwise.adonis(distances, sample_data(Apr22)$Coral)
+df_Apr22$Date = "Apr22"
+
+#Jul22
+Jul22 = subset_samples(ps_beta_relative, Date=="Jul22")
+distances = distance(Jul22, method = "unifrac", weighted = TRUE)
+df_Jul22 = pairwise.adonis(distances, sample_data(Jul22)$Coral)
+df_Jul22$Date = "Jul22"
+
+#Nov22
+Nov22 = subset_samples(ps_beta_relative, Date=="Nov22")
+distances = distance(Nov22, method = "unifrac", weighted = TRUE)
+df_Nov22 = pairwise.adonis(distances, sample_data(Nov22)$Coral)
+df_Nov22$Date = "Nov22"
+
+#Apr23
+Apr23 = subset_samples(ps_beta_relative, Date=="Apr23")
+distances = distance(Apr23, method = "unifrac", weighted = TRUE)
+df_Apr23 = pairwise.adonis(distances, sample_data(Apr23)$Coral)
+df_Apr23$Date = "Apr23"
+
+#Jul23
+Jul23 = subset_samples(ps_beta_relative, Date=="Jul23")
+distances = distance(Jul23, method = "unifrac", weighted = TRUE)
+df_Jul23 = pairwise.adonis(distances, sample_data(Jul23)$Coral)
+df_Jul23$Date = "Jul23"
+
+#Combine df with all permanova comparisons and adjust the p-values
+df_permanova = rbind(df_Jul18,df_Nov18,df_Mar19,df_Aug19,df_Nov19,df_Mar20,
+                     df_Aug20,df_May21, df_Aug21,df_Nov21,df_Apr22,df_Jul22,
+                     df_Nov22,df_Apr23,df_Jul23)
+df_permanova$p.adjusted = NULL
+df_permanova$p.adjusted = p.adjust(df_permanova$p.value, method = "holm")
+
+#Export
+write_csv(df_permanova, "PERMANOVA.csv")
+
+#Pairwise adonis by stage:
+ps_beta = readRDS(here::here("./analysis data/phyloseq objects/ps_recharge_filt_tree_fams_stages.rds"))
+ordination = readRDS(here::here("./analysis data/data frames and csvs/beta_div_ordination_object_stages.rds"))
+ps_beta_relative = transform_sample_counts(ps_beta, function (x) {x/sum(x)})
+
+pre_mhw = subset_samples(ps_beta_relative, Stage=="Pre-MHWs")
+mhw = subset_samples(ps_beta_relative, Stage=="MHWs")
+mhw_recovery = subset_samples(ps_beta_relative, Stage=="MHW Recovery")
+enr_recovery = subset_samples(ps_beta_relative, Stage=="Enrichment Recovery")
+
+#pre-mhws
+distances = distance(pre_mhw, method = "unifrac", weighted = TRUE)
+df_premhw = pairwise.adonis(distances, sample_data(pre_mhw)$Coral)
+df_premhw$Stage = "Pre-MHWs"
+
+#mhws
+distances = distance(mhw, method = "unifrac", weighted = TRUE)
+df_mhw = pairwise.adonis(distances, sample_data(mhw)$Coral)
+df_mhw$Stage = "MHWs"
+
+#mhw recovery
+distances = distance(mhw_recovery, method = "unifrac", weighted = TRUE)
+df_mhwrec = pairwise.adonis(distances, sample_data(mhw_recovery)$Coral)
+df_mhwrec$Stage = "MHW Recovery"
+
+#enrichment recovery
+distances = distance(enr_recovery, method = "unifrac", weighted = TRUE)
+df_enrrec = pairwise.adonis(distances, sample_data(enr_recovery)$Coral)
+df_enrrec$Stage = "Enrichment Recovery"
+
+#Combine df with all permanova comparisons and adjust the p-values
+df_permanova = rbind(df_premhw, df_mhw, df_mhwrec, df_enrrec)
+df_permanova$p.adjusted = NULL
+df_permanova$p.adjusted = p.adjust(df_permanova$p.value, method = "holm")
+
+write_csv(df_permanova, "PERMANOVA_stages.csv")

@@ -125,16 +125,6 @@ p = p1 + p2 + plot_layout(ncol = 1) +
 ggsave(plot = p, "recharge temperature.tiff", units = "mm",
        scale = 0.8, height = 185, width = 300, dpi = 1000)
 
-#2023 MHW
+#2023 MHW severity
 lter.out_hist_subset = subset(lter.out, day >= '2023-01-01')
 max(lter.out_hist_subset$cumstress)#1.13
-p2=ggplot(lter.out_hist_subset, aes(x=day, y=cumstress))+
-  geom_line()+
-  theme_classic()+
-  geom_hline(yintercept = 1, linetype = "longdash", color = "darkred")+
-  scale_x_date(breaks = date_breaks("months"),
-               labels = date_format("%b%Y"))+
-  labs(x="Year", y="Acc. Heat Stress")+
-  theme(axis.text.x = element_text(angle=45, vjust=1, hjust=1),
-        panel.grid.major.x = element_line(color = "grey",
-                                          linetype = "dashed"))
