@@ -1,0 +1,1601 @@
+Date,consumers,nutrients,functionalgroup,biomass,CPL,Stage,Func2,Plot,Herbivory
+ Nov21,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,A1,open
+ Nov21,High,ambient,Corallivore,29.72,High CPL,MHW recovery,Corallivore,A1,open
+ Nov21,High,ambient,Detritivore,87.84,High CPL,MHW recovery,Herbivore,A1,open
+ Nov21,High,ambient,Grazer,141.84,High CPL,MHW recovery,Herbivore,A1,open
+ Nov21,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A1,open
+ Nov21,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,A1,3x3
+ Nov21,Medium,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,A1,3x3
+ Nov21,Medium,ambient,Detritivore,61.8,High CPL,MHW recovery,Herbivore,A1,3x3
+ Nov21,Medium,ambient,Grazer,78.12,High CPL,MHW recovery,Herbivore,A1,3x3
+ Nov21,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A1,3x3
+ Nov21,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Nov21,Low,ambient,Corallivore,21.8,Low CPL,MHW recovery,Corallivore,A1,2x2
+ Nov21,Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Nov21,Low,ambient,Grazer,25.39,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Nov21,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Nov21,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Nov21,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,A1,1x1
+ Nov21,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Nov21,Very Low,ambient,Grazer,14.63,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Nov21,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Nov21,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,A2,open
+ Nov21,High,enriched,Corallivore,48.98,High CPL,MHW recovery,Corallivore,A2,open
+ Nov21,High,enriched,Detritivore,11.39,High CPL,MHW recovery,Herbivore,A2,open
+ Nov21,High,enriched,Grazer,129.5,High CPL,MHW recovery,Herbivore,A2,open
+ Nov21,High,enriched,Scraper/Excavator,483.7,High CPL,MHW recovery,Herbivore,A2,open
+ Nov21,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,A2,3x3
+ Nov21,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,A2,3x3
+ Nov21,Medium,enriched,Detritivore,7.57,High CPL,MHW recovery,Herbivore,A2,3x3
+ Nov21,Medium,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,A2,3x3
+ Nov21,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A2,3x3
+ Nov21,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Nov21,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,A2,2x2
+ Nov21,Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Nov21,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Nov21,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Nov21,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Nov21,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,A2,1x1
+ Nov21,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Nov21,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Nov21,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Nov21,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,B3,open
+ Nov21,High,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,B3,open
+ Nov21,High,enriched,Detritivore,0,High CPL,MHW recovery,Herbivore,B3,open
+ Nov21,High,enriched,Grazer,96.04,High CPL,MHW recovery,Herbivore,B3,open
+ Nov21,High,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B3,open
+ Nov21,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,B3,3x3
+ Nov21,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,B3,3x3
+ Nov21,Medium,enriched,Detritivore,6.1,High CPL,MHW recovery,Herbivore,B3,3x3
+ Nov21,Medium,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,B3,3x3
+ Nov21,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B3,3x3
+ Nov21,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Nov21,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,B3,2x2
+ Nov21,Low,enriched,Detritivore,108.03,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Nov21,Low,enriched,Grazer,19.03,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Nov21,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Nov21,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Nov21,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,B3,1x1
+ Nov21,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Nov21,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Nov21,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Nov21,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,B4,open
+ Nov21,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,B4,open
+ Nov21,High,ambient,Detritivore,38.85,High CPL,MHW recovery,Herbivore,B4,open
+ Nov21,High,ambient,Grazer,6.46,High CPL,MHW recovery,Herbivore,B4,open
+ Nov21,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B4,open
+ Nov21,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,B4,3x3
+ Nov21,Medium,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,B4,3x3
+ Nov21,Medium,ambient,Detritivore,22.53,High CPL,MHW recovery,Herbivore,B4,3x3
+ Nov21,Medium,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,B4,3x3
+ Nov21,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B4,3x3
+ Nov21,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Nov21,Low,ambient,Corallivore,15.92,Low CPL,MHW recovery,Corallivore,B4,2x2
+ Nov21,Low,ambient,Detritivore,22.53,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Nov21,Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Nov21,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Nov21,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Nov21,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,B4,1x1
+ Nov21,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Nov21,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Nov21,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Nov21,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,C1,open
+ Nov21,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,C1,open
+ Nov21,High,ambient,Detritivore,61.8,High CPL,MHW recovery,Herbivore,C1,open
+ Nov21,High,ambient,Grazer,44.2,High CPL,MHW recovery,Herbivore,C1,open
+ Nov21,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,C1,open
+ Nov21,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,C1,3x3
+ Nov21,Medium,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,C1,3x3
+ Nov21,Medium,ambient,Detritivore,224.49,High CPL,MHW recovery,Herbivore,C1,3x3
+ Nov21,Medium,ambient,Grazer,25.66,High CPL,MHW recovery,Herbivore,C1,3x3
+ Nov21,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,C1,3x3
+ Nov21,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Nov21,Low,ambient,Corallivore,21,Low CPL,MHW recovery,Corallivore,C1,2x2
+ Nov21,Low,ambient,Detritivore,149.18,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Nov21,Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Nov21,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Nov21,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Nov21,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,C1,1x1
+ Nov21,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Nov21,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Nov21,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Nov21,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,C3,open
+ Nov21,High,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,C3,open
+ Nov21,High,enriched,Detritivore,281.25,High CPL,MHW recovery,Herbivore,C3,open
+ Nov21,High,enriched,Grazer,178.66,High CPL,MHW recovery,Herbivore,C3,open
+ Nov21,High,enriched,Scraper/Excavator,436.04,High CPL,MHW recovery,Herbivore,C3,open
+ Nov21,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,C3,3x3
+ Nov21,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,C3,3x3
+ Nov21,Medium,enriched,Detritivore,199.75,High CPL,MHW recovery,Herbivore,C3,3x3
+ Nov21,Medium,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,C3,3x3
+ Nov21,Medium,enriched,Scraper/Excavator,276.46,High CPL,MHW recovery,Herbivore,C3,3x3
+ Nov21,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Nov21,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,C3,2x2
+ Nov21,Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Nov21,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Nov21,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Nov21,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Nov21,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,C3,1x1
+ Nov21,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Nov21,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Nov21,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Nov21,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,D2,open
+ Nov21,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,D2,open
+ Nov21,High,ambient,Detritivore,38.28,High CPL,MHW recovery,Herbivore,D2,open
+ Nov21,High,ambient,Grazer,19.03,High CPL,MHW recovery,Herbivore,D2,open
+ Nov21,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D2,open
+ Nov21,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,D2,3x3
+ Nov21,Medium,ambient,Corallivore,29.32,High CPL,MHW recovery,Corallivore,D2,3x3
+ Nov21,Medium,ambient,Detritivore,149.18,High CPL,MHW recovery,Herbivore,D2,3x3
+ Nov21,Medium,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,D2,3x3
+ Nov21,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D2,3x3
+ Nov21,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Nov21,Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,D2,2x2
+ Nov21,Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Nov21,Low,ambient,Grazer,0.6,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Nov21,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Nov21,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Nov21,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,D2,1x1
+ Nov21,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Nov21,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Nov21,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Nov21,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,D4,open
+ Nov21,High,enriched,Corallivore,9.17,High CPL,MHW recovery,Corallivore,D4,open
+ Nov21,High,enriched,Detritivore,130.2,High CPL,MHW recovery,Herbivore,D4,open
+ Nov21,High,enriched,Grazer,49.25,High CPL,MHW recovery,Herbivore,D4,open
+ Nov21,High,enriched,Scraper/Excavator,346.21,High CPL,MHW recovery,Herbivore,D4,open
+ Nov21,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ Nov21,Medium,enriched,Corallivore,5.52,High CPL,MHW recovery,Corallivore,D4,3x3
+ Nov21,Medium,enriched,Detritivore,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ Nov21,Medium,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ Nov21,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ Nov21,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Nov21,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,D4,2x2
+ Nov21,Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Nov21,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Nov21,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Nov21,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Nov21,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,D4,1x1
+ Nov21,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Nov21,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Nov21,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Nov22,High,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,A1,open
+ Nov22,High,ambient,Corallivore,10.75,High CPL,enrichment recovery,Corallivore,A1,open
+ Nov22,High,ambient,Detritivore,98.25,High CPL,enrichment recovery,Herbivore,A1,open
+ Nov22,High,ambient,Grazer,255.96,High CPL,enrichment recovery,Herbivore,A1,open
+ Nov22,High,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,A1,open
+ Nov22,Medium,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,A1,3x3
+ Nov22,Medium,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,A1,3x3
+ Nov22,Medium,ambient,Detritivore,127.49,High CPL,enrichment recovery,Herbivore,A1,3x3
+ Nov22,Medium,ambient,Grazer,0,High CPL,enrichment recovery,Herbivore,A1,3x3
+ Nov22,Medium,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,A1,3x3
+ Nov22,Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,A1,2x2
+ Nov22,Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,A1,2x2
+ Nov22,Low,ambient,Detritivore,30.14,Low CPL,enrichment recovery,Herbivore,A1,2x2
+ Nov22,Low,ambient,Grazer,33.04,Low CPL,enrichment recovery,Herbivore,A1,2x2
+ Nov22,Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,A1,2x2
+ Nov22,Very Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,A1,1x1
+ Nov22,Very Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,A1,1x1
+ Nov22,Very Low,ambient,Detritivore,8.94,Low CPL,enrichment recovery,Herbivore,A1,1x1
+ Nov22,Very Low,ambient,Grazer,96.04,Low CPL,enrichment recovery,Herbivore,A1,1x1
+ Nov22,Very Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,A1,1x1
+ Nov22,High,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,A2,open
+ Nov22,High,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,A2,open
+ Nov22,High,enriched,Detritivore,111.73,High CPL,enrichment recovery,Herbivore,A2,open
+ Nov22,High,enriched,Grazer,0,High CPL,enrichment recovery,Herbivore,A2,open
+ Nov22,High,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,A2,open
+ Nov22,Medium,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,A2,3x3
+ Nov22,Medium,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,A2,3x3
+ Nov22,Medium,enriched,Detritivore,13.44,High CPL,enrichment recovery,Herbivore,A2,3x3
+ Nov22,Medium,enriched,Grazer,96.04,High CPL,enrichment recovery,Herbivore,A2,3x3
+ Nov22,Medium,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,A2,3x3
+ Nov22,Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,A2,2x2
+ Nov22,Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,A2,2x2
+ Nov22,Low,enriched,Detritivore,25.49,Low CPL,enrichment recovery,Herbivore,A2,2x2
+ Nov22,Low,enriched,Grazer,33.04,Low CPL,enrichment recovery,Herbivore,A2,2x2
+ Nov22,Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,A2,2x2
+ Nov22,Very Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,A2,1x1
+ Nov22,Very Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,A2,1x1
+ Nov22,Very Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,A2,1x1
+ Nov22,Very Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,A2,1x1
+ Nov22,Very Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,A2,1x1
+ Nov22,High,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,B3,open
+ Nov22,High,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,B3,open
+ Nov22,High,enriched,Detritivore,61.8,High CPL,enrichment recovery,Herbivore,B3,open
+ Nov22,High,enriched,Grazer,0,High CPL,enrichment recovery,Herbivore,B3,open
+ Nov22,High,enriched,Scraper/Excavator,746.83,High CPL,enrichment recovery,Herbivore,B3,open
+ Nov22,Medium,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,B3,3x3
+ Nov22,Medium,enriched,Corallivore,10.75,High CPL,enrichment recovery,Corallivore,B3,3x3
+ Nov22,Medium,enriched,Detritivore,16.32,High CPL,enrichment recovery,Herbivore,B3,3x3
+ Nov22,Medium,enriched,Grazer,67.5,High CPL,enrichment recovery,Herbivore,B3,3x3
+ Nov22,Medium,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,B3,3x3
+ Nov22,Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,B3,2x2
+ Nov22,Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,B3,2x2
+ Nov22,Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,B3,2x2
+ Nov22,Low,enriched,Grazer,8.79,Low CPL,enrichment recovery,Herbivore,B3,2x2
+ Nov22,Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,B3,2x2
+ Nov22,Very Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,B3,1x1
+ Nov22,Very Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,B3,1x1
+ Nov22,Very Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,B3,1x1
+ Nov22,Very Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,B3,1x1
+ Nov22,Very Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,B3,1x1
+ Nov22,High,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,B4,open
+ Nov22,High,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,B4,open
+ Nov22,High,ambient,Detritivore,112.76,High CPL,enrichment recovery,Herbivore,B4,open
+ Nov22,High,ambient,Grazer,0,High CPL,enrichment recovery,Herbivore,B4,open
+ Nov22,High,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,B4,open
+ Nov22,Medium,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,B4,3x3
+ Nov22,Medium,ambient,Corallivore,18.34,High CPL,enrichment recovery,Corallivore,B4,3x3
+ Nov22,Medium,ambient,Detritivore,37.54,High CPL,enrichment recovery,Herbivore,B4,3x3
+ Nov22,Medium,ambient,Grazer,116.5,High CPL,enrichment recovery,Herbivore,B4,3x3
+ Nov22,Medium,ambient,Scraper/Excavator,243.78,High CPL,enrichment recovery,Herbivore,B4,3x3
+ Nov22,Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,B4,2x2
+ Nov22,Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,B4,2x2
+ Nov22,Low,ambient,Detritivore,12.3,Low CPL,enrichment recovery,Herbivore,B4,2x2
+ Nov22,Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,B4,2x2
+ Nov22,Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,B4,2x2
+ Nov22,Very Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,B4,1x1
+ Nov22,Very Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,B4,1x1
+ Nov22,Very Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,B4,1x1
+ Nov22,Very Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,B4,1x1
+ Nov22,Very Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,B4,1x1
+ Nov22,High,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,C1,open
+ Nov22,High,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,C1,open
+ Nov22,High,ambient,Detritivore,12.76,High CPL,enrichment recovery,Herbivore,C1,open
+ Nov22,High,ambient,Grazer,37.96,High CPL,enrichment recovery,Herbivore,C1,open
+ Nov22,High,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,C1,open
+ Nov22,Medium,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,C1,3x3
+ Nov22,Medium,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,C1,3x3
+ Nov22,Medium,ambient,Detritivore,92.49,High CPL,enrichment recovery,Herbivore,C1,3x3
+ Nov22,Medium,ambient,Grazer,290.59,High CPL,enrichment recovery,Herbivore,C1,3x3
+ Nov22,Medium,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,C1,3x3
+ Nov22,Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,C1,2x2
+ Nov22,Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,C1,2x2
+ Nov22,Low,ambient,Detritivore,90.68,Low CPL,enrichment recovery,Herbivore,C1,2x2
+ Nov22,Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,C1,2x2
+ Nov22,Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,C1,2x2
+ Nov22,Very Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,C1,1x1
+ Nov22,Very Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,C1,1x1
+ Nov22,Very Low,ambient,Detritivore,16.32,Low CPL,enrichment recovery,Herbivore,C1,1x1
+ Nov22,Very Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,C1,1x1
+ Nov22,Very Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,C1,1x1
+ Nov22,High,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,C3,open
+ Nov22,High,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,C3,open
+ Nov22,High,enriched,Detritivore,127.49,High CPL,enrichment recovery,Herbivore,C3,open
+ Nov22,High,enriched,Grazer,0,High CPL,enrichment recovery,Herbivore,C3,open
+ Nov22,High,enriched,Scraper/Excavator,752.51,High CPL,enrichment recovery,Herbivore,C3,open
+ Nov22,Medium,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,C3,3x3
+ Nov22,Medium,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,C3,3x3
+ Nov22,Medium,enriched,Detritivore,90.68,High CPL,enrichment recovery,Herbivore,C3,3x3
+ Nov22,Medium,enriched,Grazer,305.42,High CPL,enrichment recovery,Herbivore,C3,3x3
+ Nov22,Medium,enriched,Scraper/Excavator,535.62,High CPL,enrichment recovery,Herbivore,C3,3x3
+ Nov22,Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,C3,2x2
+ Nov22,Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,C3,2x2
+ Nov22,Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,C3,2x2
+ Nov22,Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,C3,2x2
+ Nov22,Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,C3,2x2
+ Nov22,Very Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,C3,1x1
+ Nov22,Very Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,C3,1x1
+ Nov22,Very Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,C3,1x1
+ Nov22,Very Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,C3,1x1
+ Nov22,Very Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,C3,1x1
+ Nov22,High,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,D2,open
+ Nov22,High,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,D2,open
+ Nov22,High,ambient,Detritivore,37.71,High CPL,enrichment recovery,Herbivore,D2,open
+ Nov22,High,ambient,Grazer,205.74,High CPL,enrichment recovery,Herbivore,D2,open
+ Nov22,High,ambient,Scraper/Excavator,264.96,High CPL,enrichment recovery,Herbivore,D2,open
+ Nov22,Medium,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,D2,3x3
+ Nov22,Medium,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,D2,3x3
+ Nov22,Medium,ambient,Detritivore,0,High CPL,enrichment recovery,Herbivore,D2,3x3
+ Nov22,Medium,ambient,Grazer,165.74,High CPL,enrichment recovery,Herbivore,D2,3x3
+ Nov22,Medium,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,D2,3x3
+ Nov22,Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,D2,2x2
+ Nov22,Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,D2,2x2
+ Nov22,Low,ambient,Detritivore,7.44,Low CPL,enrichment recovery,Herbivore,D2,2x2
+ Nov22,Low,ambient,Grazer,9.68,Low CPL,enrichment recovery,Herbivore,D2,2x2
+ Nov22,Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,D2,2x2
+ Nov22,Very Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,D2,1x1
+ Nov22,Very Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,D2,1x1
+ Nov22,Very Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,D2,1x1
+ Nov22,Very Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,D2,1x1
+ Nov22,Very Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,D2,1x1
+ Nov22,High,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,D4,open
+ Nov22,High,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,D4,open
+ Nov22,High,enriched,Detritivore,0,High CPL,enrichment recovery,Herbivore,D4,open
+ Nov22,High,enriched,Grazer,0,High CPL,enrichment recovery,Herbivore,D4,open
+ Nov22,High,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,D4,open
+ Nov22,Medium,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,D4,3x3
+ Nov22,Medium,enriched,Corallivore,61.62,High CPL,enrichment recovery,Corallivore,D4,3x3
+ Nov22,Medium,enriched,Detritivore,108.03,High CPL,enrichment recovery,Herbivore,D4,3x3
+ Nov22,Medium,enriched,Grazer,442.72,High CPL,enrichment recovery,Herbivore,D4,3x3
+ Nov22,Medium,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,D4,3x3
+ Nov22,Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,D4,2x2
+ Nov22,Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,D4,2x2
+ Nov22,Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,D4,2x2
+ Nov22,Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,D4,2x2
+ Nov22,Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,D4,2x2
+ Nov22,Very Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,D4,1x1
+ Nov22,Very Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,D4,1x1
+ Nov22,Very Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,D4,1x1
+ Nov22,Very Low,enriched,Grazer,1.84,Low CPL,enrichment recovery,Herbivore,D4,1x1
+ Nov22,Very Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,D4,1x1
+ Apr22,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,A1,open
+ Apr22,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,A1,open
+ Apr22,High,ambient,Detritivore,260.56,High CPL,MHW recovery,Herbivore,A1,open
+ Apr22,High,ambient,Grazer,277.22,High CPL,MHW recovery,Herbivore,A1,open
+ Apr22,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A1,open
+ Apr22,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,A1,3x3
+ Apr22,Medium,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,A1,3x3
+ Apr22,Medium,ambient,Detritivore,55.18,High CPL,MHW recovery,Herbivore,A1,3x3
+ Apr22,Medium,ambient,Grazer,106.66,High CPL,MHW recovery,Herbivore,A1,3x3
+ Apr22,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A1,3x3
+ Apr22,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Apr22,Low,ambient,Corallivore,3.02,Low CPL,MHW recovery,Corallivore,A1,2x2
+ Apr22,Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Apr22,Low,ambient,Grazer,67.5,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Apr22,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Apr22,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Apr22,Very Low,ambient,Corallivore,3.02,Low CPL,MHW recovery,Corallivore,A1,1x1
+ Apr22,Very Low,ambient,Detritivore,2.71,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Apr22,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Apr22,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Apr22,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,A2,open
+ Apr22,High,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,A2,open
+ Apr22,High,enriched,Detritivore,45.05,High CPL,MHW recovery,Herbivore,A2,open
+ Apr22,High,enriched,Grazer,213.65,High CPL,MHW recovery,Herbivore,A2,open
+ Apr22,High,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A2,open
+ Apr22,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,A2,3x3
+ Apr22,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,A2,3x3
+ Apr22,Medium,enriched,Detritivore,93.6,High CPL,MHW recovery,Herbivore,A2,3x3
+ Apr22,Medium,enriched,Grazer,33.04,High CPL,MHW recovery,Herbivore,A2,3x3
+ Apr22,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A2,3x3
+ Apr22,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Apr22,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,A2,2x2
+ Apr22,Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Apr22,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Apr22,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Apr22,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Apr22,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,A2,1x1
+ Apr22,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Apr22,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Apr22,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Apr22,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,B3,open
+ Apr22,High,enriched,Corallivore,4.17,High CPL,MHW recovery,Corallivore,B3,open
+ Apr22,High,enriched,Detritivore,0,High CPL,MHW recovery,Herbivore,B3,open
+ Apr22,High,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,B3,open
+ Apr22,High,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B3,open
+ Apr22,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,B3,3x3
+ Apr22,Medium,enriched,Corallivore,13.77,High CPL,MHW recovery,Corallivore,B3,3x3
+ Apr22,Medium,enriched,Detritivore,75.31,High CPL,MHW recovery,Herbivore,B3,3x3
+ Apr22,Medium,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,B3,3x3
+ Apr22,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B3,3x3
+ Apr22,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Apr22,Low,enriched,Corallivore,6.97,Low CPL,MHW recovery,Corallivore,B3,2x2
+ Apr22,Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Apr22,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Apr22,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Apr22,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Apr22,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,B3,1x1
+ Apr22,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Apr22,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Apr22,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Apr22,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,B4,open
+ Apr22,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,B4,open
+ Apr22,High,ambient,Detritivore,0,High CPL,MHW recovery,Herbivore,B4,open
+ Apr22,High,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,B4,open
+ Apr22,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B4,open
+ Apr22,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,B4,3x3
+ Apr22,Medium,ambient,Corallivore,29.72,High CPL,MHW recovery,Corallivore,B4,3x3
+ Apr22,Medium,ambient,Detritivore,33.92,High CPL,MHW recovery,Herbivore,B4,3x3
+ Apr22,Medium,ambient,Grazer,6.19,High CPL,MHW recovery,Herbivore,B4,3x3
+ Apr22,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B4,3x3
+ Apr22,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Apr22,Low,ambient,Corallivore,3.02,Low CPL,MHW recovery,Corallivore,B4,2x2
+ Apr22,Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Apr22,Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Apr22,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Apr22,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Apr22,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,B4,1x1
+ Apr22,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Apr22,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Apr22,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Apr22,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,C1,open
+ Apr22,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,C1,open
+ Apr22,High,ambient,Detritivore,7.57,High CPL,MHW recovery,Herbivore,C1,open
+ Apr22,High,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,C1,open
+ Apr22,High,ambient,Scraper/Excavator,193.01,High CPL,MHW recovery,Herbivore,C1,open
+ Apr22,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,C1,3x3
+ Apr22,Medium,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,C1,3x3
+ Apr22,Medium,ambient,Detritivore,293.48,High CPL,MHW recovery,Herbivore,C1,3x3
+ Apr22,Medium,ambient,Grazer,68.57,High CPL,MHW recovery,Herbivore,C1,3x3
+ Apr22,Medium,ambient,Scraper/Excavator,475.14,High CPL,MHW recovery,Herbivore,C1,3x3
+ Apr22,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Apr22,Low,ambient,Corallivore,10.75,Low CPL,MHW recovery,Corallivore,C1,2x2
+ Apr22,Low,ambient,Detritivore,75.31,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Apr22,Low,ambient,Grazer,107.79,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Apr22,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Apr22,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Apr22,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,C1,1x1
+ Apr22,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Apr22,Very Low,ambient,Grazer,33.04,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Apr22,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Apr22,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,C3,open
+ Apr22,High,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,C3,open
+ Apr22,High,enriched,Detritivore,235.52,High CPL,MHW recovery,Herbivore,C3,open
+ Apr22,High,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,C3,open
+ Apr22,High,enriched,Scraper/Excavator,696.77,High CPL,MHW recovery,Herbivore,C3,open
+ Apr22,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,C3,3x3
+ Apr22,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,C3,3x3
+ Apr22,Medium,enriched,Detritivore,108.03,High CPL,MHW recovery,Herbivore,C3,3x3
+ Apr22,Medium,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,C3,3x3
+ Apr22,Medium,enriched,Scraper/Excavator,350.26,High CPL,MHW recovery,Herbivore,C3,3x3
+ Apr22,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Apr22,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,C3,2x2
+ Apr22,Low,enriched,Detritivore,90.68,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Apr22,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Apr22,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Apr22,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Apr22,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,C3,1x1
+ Apr22,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Apr22,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Apr22,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Apr22,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,D2,open
+ Apr22,High,ambient,Corallivore,6.97,High CPL,MHW recovery,Corallivore,D2,open
+ Apr22,High,ambient,Detritivore,2.71,High CPL,MHW recovery,Herbivore,D2,open
+ Apr22,High,ambient,Grazer,25.39,High CPL,MHW recovery,Herbivore,D2,open
+ Apr22,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D2,open
+ Apr22,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,D2,3x3
+ Apr22,Medium,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,D2,3x3
+ Apr22,Medium,ambient,Detritivore,130.55,High CPL,MHW recovery,Herbivore,D2,3x3
+ Apr22,Medium,ambient,Grazer,0.5,High CPL,MHW recovery,Herbivore,D2,3x3
+ Apr22,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D2,3x3
+ Apr22,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Apr22,Low,ambient,Corallivore,6.97,Low CPL,MHW recovery,Corallivore,D2,2x2
+ Apr22,Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Apr22,Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Apr22,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Apr22,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Apr22,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,D2,1x1
+ Apr22,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Apr22,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Apr22,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Apr22,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,D4,open
+ Apr22,High,enriched,Corallivore,22.34,High CPL,MHW recovery,Corallivore,D4,open
+ Apr22,High,enriched,Detritivore,2.74,High CPL,MHW recovery,Herbivore,D4,open
+ Apr22,High,enriched,Grazer,23.51,High CPL,MHW recovery,Herbivore,D4,open
+ Apr22,High,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D4,open
+ Apr22,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ Apr22,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,D4,3x3
+ Apr22,Medium,enriched,Detritivore,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ Apr22,Medium,enriched,Grazer,33.04,High CPL,MHW recovery,Herbivore,D4,3x3
+ Apr22,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ Apr22,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Apr22,Low,enriched,Corallivore,3.02,Low CPL,MHW recovery,Corallivore,D4,2x2
+ Apr22,Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Apr22,Low,enriched,Grazer,25.39,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Apr22,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Apr22,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Apr22,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,D4,1x1
+ Apr22,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Apr22,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Apr22,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Apr23,High,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,A1,open
+ Apr23,High,ambient,Corallivore,23.41,High CPL,enrichment recovery,Corallivore,A1,open
+ Apr23,High,ambient,Detritivore,32.65,High CPL,enrichment recovery,Herbivore,A1,open
+ Apr23,High,ambient,Grazer,220.77,High CPL,enrichment recovery,Herbivore,A1,open
+ Apr23,High,ambient,Scraper/Excavator,1545.7,High CPL,enrichment recovery,Herbivore,A1,open
+ Apr23,Medium,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,A1,3x3
+ Apr23,Medium,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,A1,3x3
+ Apr23,Medium,ambient,Detritivore,90.68,High CPL,enrichment recovery,Herbivore,A1,3x3
+ Apr23,Medium,ambient,Grazer,0,High CPL,enrichment recovery,Herbivore,A1,3x3
+ Apr23,Medium,ambient,Scraper/Excavator,90.21,High CPL,enrichment recovery,Herbivore,A1,3x3
+ Apr23,Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,A1,2x2
+ Apr23,Low,ambient,Corallivore,97.96,Low CPL,enrichment recovery,Corallivore,A1,2x2
+ Apr23,Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,A1,2x2
+ Apr23,Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,A1,2x2
+ Apr23,Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,A1,2x2
+ Apr23,Very Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,A1,1x1
+ Apr23,Very Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,A1,1x1
+ Apr23,Very Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,A1,1x1
+ Apr23,Very Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,A1,1x1
+ Apr23,Very Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,A1,1x1
+ Apr23,High,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,A2,open
+ Apr23,High,enriched,Corallivore,25.67,High CPL,enrichment recovery,Corallivore,A2,open
+ Apr23,High,enriched,Detritivore,119.42,High CPL,enrichment recovery,Herbivore,A2,open
+ Apr23,High,enriched,Grazer,165.74,High CPL,enrichment recovery,Herbivore,A2,open
+ Apr23,High,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,A2,open
+ Apr23,Medium,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,A2,3x3
+ Apr23,Medium,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,A2,3x3
+ Apr23,Medium,enriched,Detritivore,204.69,High CPL,enrichment recovery,Herbivore,A2,3x3
+ Apr23,Medium,enriched,Grazer,194.85,High CPL,enrichment recovery,Herbivore,A2,3x3
+ Apr23,Medium,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,A2,3x3
+ Apr23,Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,A2,2x2
+ Apr23,Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,A2,2x2
+ Apr23,Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,A2,2x2
+ Apr23,Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,A2,2x2
+ Apr23,Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,A2,2x2
+ Apr23,Very Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,A2,1x1
+ Apr23,Very Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,A2,1x1
+ Apr23,Very Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,A2,1x1
+ Apr23,Very Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,A2,1x1
+ Apr23,Very Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,A2,1x1
+ Apr23,High,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,B3,open
+ Apr23,High,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,B3,open
+ Apr23,High,enriched,Detritivore,0,High CPL,enrichment recovery,Herbivore,B3,open
+ Apr23,High,enriched,Grazer,0,High CPL,enrichment recovery,Herbivore,B3,open
+ Apr23,High,enriched,Scraper/Excavator,773.89,High CPL,enrichment recovery,Herbivore,B3,open
+ Apr23,Medium,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,B3,3x3
+ Apr23,Medium,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,B3,3x3
+ Apr23,Medium,enriched,Detritivore,23.89,High CPL,enrichment recovery,Herbivore,B3,3x3
+ Apr23,Medium,enriched,Grazer,6.46,High CPL,enrichment recovery,Herbivore,B3,3x3
+ Apr23,Medium,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,B3,3x3
+ Apr23,Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,B3,2x2
+ Apr23,Low,enriched,Corallivore,10.75,Low CPL,enrichment recovery,Corallivore,B3,2x2
+ Apr23,Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,B3,2x2
+ Apr23,Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,B3,2x2
+ Apr23,Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,B3,2x2
+ Apr23,Very Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,B3,1x1
+ Apr23,Very Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,B3,1x1
+ Apr23,Very Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,B3,1x1
+ Apr23,Very Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,B3,1x1
+ Apr23,Very Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,B3,1x1
+ Apr23,High,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,B4,open
+ Apr23,High,ambient,Corallivore,20.2,High CPL,enrichment recovery,Corallivore,B4,open
+ Apr23,High,ambient,Detritivore,281.25,High CPL,enrichment recovery,Herbivore,B4,open
+ Apr23,High,ambient,Grazer,2.33,High CPL,enrichment recovery,Herbivore,B4,open
+ Apr23,High,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,B4,open
+ Apr23,Medium,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,B4,3x3
+ Apr23,Medium,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,B4,3x3
+ Apr23,Medium,ambient,Detritivore,106.8,High CPL,enrichment recovery,Herbivore,B4,3x3
+ Apr23,Medium,ambient,Grazer,116.5,High CPL,enrichment recovery,Herbivore,B4,3x3
+ Apr23,Medium,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,B4,3x3
+ Apr23,Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,B4,2x2
+ Apr23,Low,ambient,Corallivore,9.17,Low CPL,enrichment recovery,Corallivore,B4,2x2
+ Apr23,Low,ambient,Detritivore,11.39,Low CPL,enrichment recovery,Herbivore,B4,2x2
+ Apr23,Low,ambient,Grazer,33.04,Low CPL,enrichment recovery,Herbivore,B4,2x2
+ Apr23,Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,B4,2x2
+ Apr23,Very Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,B4,1x1
+ Apr23,Very Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,B4,1x1
+ Apr23,Very Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,B4,1x1
+ Apr23,Very Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,B4,1x1
+ Apr23,Very Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,B4,1x1
+ Apr23,High,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,C1,open
+ Apr23,High,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,C1,open
+ Apr23,High,ambient,Detritivore,0,High CPL,enrichment recovery,Herbivore,C1,open
+ Apr23,High,ambient,Grazer,0,High CPL,enrichment recovery,Herbivore,C1,open
+ Apr23,High,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,C1,open
+ Apr23,Medium,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,C1,3x3
+ Apr23,Medium,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,C1,3x3
+ Apr23,Medium,ambient,Detritivore,0,High CPL,enrichment recovery,Herbivore,C1,3x3
+ Apr23,Medium,ambient,Grazer,0,High CPL,enrichment recovery,Herbivore,C1,3x3
+ Apr23,Medium,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,C1,3x3
+ Apr23,Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,C1,2x2
+ Apr23,Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,C1,2x2
+ Apr23,Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,C1,2x2
+ Apr23,Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,C1,2x2
+ Apr23,Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,C1,2x2
+ Apr23,Very Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,C1,1x1
+ Apr23,Very Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,C1,1x1
+ Apr23,Very Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,C1,1x1
+ Apr23,Very Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,C1,1x1
+ Apr23,Very Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,C1,1x1
+ Apr23,High,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,C3,open
+ Apr23,High,enriched,Corallivore,11.03,High CPL,enrichment recovery,Corallivore,C3,open
+ Apr23,High,enriched,Detritivore,127.49,High CPL,enrichment recovery,Herbivore,C3,open
+ Apr23,High,enriched,Grazer,0,High CPL,enrichment recovery,Herbivore,C3,open
+ Apr23,High,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,C3,open
+ Apr23,Medium,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,C3,3x3
+ Apr23,Medium,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,C3,3x3
+ Apr23,Medium,enriched,Detritivore,0,High CPL,enrichment recovery,Herbivore,C3,3x3
+ Apr23,Medium,enriched,Grazer,0,High CPL,enrichment recovery,Herbivore,C3,3x3
+ Apr23,Medium,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,C3,3x3
+ Apr23,Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,C3,2x2
+ Apr23,Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,C3,2x2
+ Apr23,Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,C3,2x2
+ Apr23,Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,C3,2x2
+ Apr23,Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,C3,2x2
+ Apr23,Very Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,C3,1x1
+ Apr23,Very Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,C3,1x1
+ Apr23,Very Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,C3,1x1
+ Apr23,Very Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,C3,1x1
+ Apr23,Very Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,C3,1x1
+ Apr23,High,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,D2,open
+ Apr23,High,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,D2,open
+ Apr23,High,ambient,Detritivore,0,High CPL,enrichment recovery,Herbivore,D2,open
+ Apr23,High,ambient,Grazer,0,High CPL,enrichment recovery,Herbivore,D2,open
+ Apr23,High,ambient,Scraper/Excavator,1166.19,High CPL,enrichment recovery,Herbivore,D2,open
+ Apr23,Medium,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,D2,3x3
+ Apr23,Medium,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,D2,3x3
+ Apr23,Medium,ambient,Detritivore,0,High CPL,enrichment recovery,Herbivore,D2,3x3
+ Apr23,Medium,ambient,Grazer,0,High CPL,enrichment recovery,Herbivore,D2,3x3
+ Apr23,Medium,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,D2,3x3
+ Apr23,Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,D2,2x2
+ Apr23,Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,D2,2x2
+ Apr23,Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,D2,2x2
+ Apr23,Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,D2,2x2
+ Apr23,Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,D2,2x2
+ Apr23,Very Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,D2,1x1
+ Apr23,Very Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,D2,1x1
+ Apr23,Very Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,D2,1x1
+ Apr23,Very Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,D2,1x1
+ Apr23,Very Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,D2,1x1
+ Apr23,High,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,D4,open
+ Apr23,High,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,D4,open
+ Apr23,High,enriched,Detritivore,149.18,High CPL,enrichment recovery,Herbivore,D4,open
+ Apr23,High,enriched,Grazer,402.7,High CPL,enrichment recovery,Herbivore,D4,open
+ Apr23,High,enriched,Scraper/Excavator,1051.06,High CPL,enrichment recovery,Herbivore,D4,open
+ Apr23,Medium,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,D4,3x3
+ Apr23,Medium,enriched,Corallivore,6.05,High CPL,enrichment recovery,Corallivore,D4,3x3
+ Apr23,Medium,enriched,Detritivore,90.68,High CPL,enrichment recovery,Herbivore,D4,3x3
+ Apr23,Medium,enriched,Grazer,6.46,High CPL,enrichment recovery,Herbivore,D4,3x3
+ Apr23,Medium,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,D4,3x3
+ Apr23,Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,D4,2x2
+ Apr23,Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,D4,2x2
+ Apr23,Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,D4,2x2
+ Apr23,Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,D4,2x2
+ Apr23,Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,D4,2x2
+ Apr23,Very Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,D4,1x1
+ Apr23,Very Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,D4,1x1
+ Apr23,Very Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,D4,1x1
+ Apr23,Very Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,D4,1x1
+ Apr23,Very Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,D4,1x1
+ May21,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,A1,open
+ May21,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,A1,open
+ May21,High,ambient,Detritivore,17.72,High CPL,MHW recovery,Herbivore,A1,open
+ May21,High,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,A1,open
+ May21,High,ambient,Scraper/Excavator,80.39,High CPL,MHW recovery,Herbivore,A1,open
+ May21,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,A1,3x3
+ May21,Medium,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,A1,3x3
+ May21,Medium,ambient,Detritivore,0,High CPL,MHW recovery,Herbivore,A1,3x3
+ May21,Medium,ambient,Grazer,75.15,High CPL,MHW recovery,Herbivore,A1,3x3
+ May21,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A1,3x3
+ May21,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ May21,Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,A1,2x2
+ May21,Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ May21,Low,ambient,Grazer,9.68,Low CPL,MHW recovery,Herbivore,A1,2x2
+ May21,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ May21,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ May21,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,A1,1x1
+ May21,Very Low,ambient,Detritivore,4.73,Low CPL,MHW recovery,Herbivore,A1,1x1
+ May21,Very Low,ambient,Grazer,9.68,Low CPL,MHW recovery,Herbivore,A1,1x1
+ May21,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ May21,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,A2,open
+ May21,High,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,A2,open
+ May21,High,enriched,Detritivore,298.44,High CPL,MHW recovery,Herbivore,A2,open
+ May21,High,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,A2,open
+ May21,High,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A2,open
+ May21,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,A2,3x3
+ May21,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,A2,3x3
+ May21,Medium,enriched,Detritivore,95.72,High CPL,MHW recovery,Herbivore,A2,3x3
+ May21,Medium,enriched,Grazer,42.72,High CPL,MHW recovery,Herbivore,A2,3x3
+ May21,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A2,3x3
+ May21,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ May21,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,A2,2x2
+ May21,Low,enriched,Detritivore,16.32,Low CPL,MHW recovery,Herbivore,A2,2x2
+ May21,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ May21,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ May21,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ May21,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,A2,1x1
+ May21,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ May21,Very Low,enriched,Grazer,148.16,Low CPL,MHW recovery,Herbivore,A2,1x1
+ May21,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ May21,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,B3,open
+ May21,High,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,B3,open
+ May21,High,enriched,Detritivore,0,High CPL,MHW recovery,Herbivore,B3,open
+ May21,High,enriched,Grazer,28.54,High CPL,MHW recovery,Herbivore,B3,open
+ May21,High,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B3,open
+ May21,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,B3,3x3
+ May21,Medium,enriched,Corallivore,18.67,High CPL,MHW recovery,Corallivore,B3,3x3
+ May21,Medium,enriched,Detritivore,35.87,High CPL,MHW recovery,Herbivore,B3,3x3
+ May21,Medium,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,B3,3x3
+ May21,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B3,3x3
+ May21,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ May21,Low,enriched,Corallivore,0.99,Low CPL,MHW recovery,Corallivore,B3,2x2
+ May21,Low,enriched,Detritivore,5.99,Low CPL,MHW recovery,Herbivore,B3,2x2
+ May21,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ May21,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ May21,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ May21,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,B3,1x1
+ May21,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ May21,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ May21,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ May21,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,B4,open
+ May21,High,ambient,Corallivore,38.89,High CPL,MHW recovery,Corallivore,B4,open
+ May21,High,ambient,Detritivore,218.17,High CPL,MHW recovery,Herbivore,B4,open
+ May21,High,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,B4,open
+ May21,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B4,open
+ May21,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,B4,3x3
+ May21,Medium,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,B4,3x3
+ May21,Medium,ambient,Detritivore,78.17,High CPL,MHW recovery,Herbivore,B4,3x3
+ May21,Medium,ambient,Grazer,220.24,High CPL,MHW recovery,Herbivore,B4,3x3
+ May21,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B4,3x3
+ May21,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ May21,Low,ambient,Corallivore,74.03,Low CPL,MHW recovery,Corallivore,B4,2x2
+ May21,Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ May21,Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ May21,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ May21,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ May21,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,B4,1x1
+ May21,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ May21,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ May21,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ May21,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,C1,open
+ May21,High,ambient,Corallivore,63.39,High CPL,MHW recovery,Corallivore,C1,open
+ May21,High,ambient,Detritivore,216.06,High CPL,MHW recovery,Herbivore,C1,open
+ May21,High,ambient,Grazer,25.39,High CPL,MHW recovery,Herbivore,C1,open
+ May21,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,C1,open
+ May21,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,C1,3x3
+ May21,Medium,ambient,Corallivore,14.59,High CPL,MHW recovery,Corallivore,C1,3x3
+ May21,Medium,ambient,Detritivore,21.58,High CPL,MHW recovery,Herbivore,C1,3x3
+ May21,Medium,ambient,Grazer,104.14,High CPL,MHW recovery,Herbivore,C1,3x3
+ May21,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,C1,3x3
+ May21,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,C1,2x2
+ May21,Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,C1,2x2
+ May21,Low,ambient,Detritivore,28.39,Low CPL,MHW recovery,Herbivore,C1,2x2
+ May21,Low,ambient,Grazer,52.7,Low CPL,MHW recovery,Herbivore,C1,2x2
+ May21,Low,ambient,Scraper/Excavator,128.61,Low CPL,MHW recovery,Herbivore,C1,2x2
+ May21,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ May21,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,C1,1x1
+ May21,Very Low,ambient,Detritivore,31.2,Low CPL,MHW recovery,Herbivore,C1,1x1
+ May21,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ May21,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ May21,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,C3,open
+ May21,High,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,C3,open
+ May21,High,enriched,Detritivore,0,High CPL,MHW recovery,Herbivore,C3,open
+ May21,High,enriched,Grazer,33.04,High CPL,MHW recovery,Herbivore,C3,open
+ May21,High,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,C3,open
+ May21,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,C3,3x3
+ May21,Medium,enriched,Corallivore,4.17,High CPL,MHW recovery,Corallivore,C3,3x3
+ May21,Medium,enriched,Detritivore,0,High CPL,MHW recovery,Herbivore,C3,3x3
+ May21,Medium,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,C3,3x3
+ May21,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,C3,3x3
+ May21,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ May21,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,C3,2x2
+ May21,Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ May21,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ May21,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ May21,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ May21,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,C3,1x1
+ May21,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ May21,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ May21,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ May21,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,D2,open
+ May21,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,D2,open
+ May21,High,ambient,Detritivore,22.53,High CPL,MHW recovery,Herbivore,D2,open
+ May21,High,ambient,Grazer,19.03,High CPL,MHW recovery,Herbivore,D2,open
+ May21,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D2,open
+ May21,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,D2,3x3
+ May21,Medium,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,D2,3x3
+ May21,Medium,ambient,Detritivore,39.87,High CPL,MHW recovery,Herbivore,D2,3x3
+ May21,Medium,ambient,Grazer,97.15,High CPL,MHW recovery,Herbivore,D2,3x3
+ May21,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D2,3x3
+ May21,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,D2,2x2
+ May21,Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,D2,2x2
+ May21,Low,ambient,Detritivore,75.31,Low CPL,MHW recovery,Herbivore,D2,2x2
+ May21,Low,ambient,Grazer,25.39,Low CPL,MHW recovery,Herbivore,D2,2x2
+ May21,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D2,2x2
+ May21,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ May21,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,D2,1x1
+ May21,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ May21,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ May21,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ May21,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,D4,open
+ May21,High,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,D4,open
+ May21,High,enriched,Detritivore,20.68,High CPL,MHW recovery,Herbivore,D4,open
+ May21,High,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,D4,open
+ May21,High,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D4,open
+ May21,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ May21,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,D4,3x3
+ May21,Medium,enriched,Detritivore,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ May21,Medium,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ May21,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ May21,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ May21,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,D4,2x2
+ May21,Low,enriched,Detritivore,9.01,Low CPL,MHW recovery,Herbivore,D4,2x2
+ May21,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ May21,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ May21,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ May21,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,D4,1x1
+ May21,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ May21,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ May21,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Jul18,High,ambient,Browser,0,High CPL,pre-MHWs,Herbivore,A1,open
+ Jul18,High,ambient,Corallivore,0,High CPL,pre-MHWs,Corallivore,A1,open
+ Jul18,High,ambient,Detritivore,0,High CPL,pre-MHWs,Herbivore,A1,open
+ Jul18,High,ambient,Grazer,0,High CPL,pre-MHWs,Herbivore,A1,open
+ Jul18,High,ambient,Scraper/Excavator,0,High CPL,pre-MHWs,Herbivore,A1,open
+ Jul18,Medium,ambient,Browser,0,High CPL,pre-MHWs,Herbivore,A1,3x3
+ Jul18,Medium,ambient,Corallivore,0,High CPL,pre-MHWs,Corallivore,A1,3x3
+ Jul18,Medium,ambient,Detritivore,0,High CPL,pre-MHWs,Herbivore,A1,3x3
+ Jul18,Medium,ambient,Grazer,0,High CPL,pre-MHWs,Herbivore,A1,3x3
+ Jul18,Medium,ambient,Scraper/Excavator,41.99,High CPL,pre-MHWs,Herbivore,A1,3x3
+ Jul18,Low,ambient,Browser,0,Low CPL,pre-MHWs,Herbivore,A1,2x2
+ Jul18,Low,ambient,Corallivore,0,Low CPL,pre-MHWs,Corallivore,A1,2x2
+ Jul18,Low,ambient,Detritivore,0,Low CPL,pre-MHWs,Herbivore,A1,2x2
+ Jul18,Low,ambient,Grazer,0,Low CPL,pre-MHWs,Herbivore,A1,2x2
+ Jul18,Low,ambient,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,A1,2x2
+ Jul18,Very Low,ambient,Browser,0,Low CPL,pre-MHWs,Herbivore,A1,1x1
+ Jul18,Very Low,ambient,Corallivore,0,Low CPL,pre-MHWs,Corallivore,A1,1x1
+ Jul18,Very Low,ambient,Detritivore,4.73,Low CPL,pre-MHWs,Herbivore,A1,1x1
+ Jul18,Very Low,ambient,Grazer,0,Low CPL,pre-MHWs,Herbivore,A1,1x1
+ Jul18,Very Low,ambient,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,A1,1x1
+ Jul18,High,enriched,Browser,0,High CPL,pre-MHWs,Herbivore,A2,open
+ Jul18,High,enriched,Corallivore,0,High CPL,pre-MHWs,Corallivore,A2,open
+ Jul18,High,enriched,Detritivore,0,High CPL,pre-MHWs,Herbivore,A2,open
+ Jul18,High,enriched,Grazer,13.83,High CPL,pre-MHWs,Herbivore,A2,open
+ Jul18,High,enriched,Scraper/Excavator,0,High CPL,pre-MHWs,Herbivore,A2,open
+ Jul18,Medium,enriched,Browser,0,High CPL,pre-MHWs,Herbivore,A2,3x3
+ Jul18,Medium,enriched,Corallivore,0,High CPL,pre-MHWs,Corallivore,A2,3x3
+ Jul18,Medium,enriched,Detritivore,0,High CPL,pre-MHWs,Herbivore,A2,3x3
+ Jul18,Medium,enriched,Grazer,0,High CPL,pre-MHWs,Herbivore,A2,3x3
+ Jul18,Medium,enriched,Scraper/Excavator,0,High CPL,pre-MHWs,Herbivore,A2,3x3
+ Jul18,Low,enriched,Browser,0,Low CPL,pre-MHWs,Herbivore,A2,2x2
+ Jul18,Low,enriched,Corallivore,0,Low CPL,pre-MHWs,Corallivore,A2,2x2
+ Jul18,Low,enriched,Detritivore,7.57,Low CPL,pre-MHWs,Herbivore,A2,2x2
+ Jul18,Low,enriched,Grazer,0,Low CPL,pre-MHWs,Herbivore,A2,2x2
+ Jul18,Low,enriched,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,A2,2x2
+ Jul18,Very Low,enriched,Browser,0,Low CPL,pre-MHWs,Herbivore,A2,1x1
+ Jul18,Very Low,enriched,Corallivore,0,Low CPL,pre-MHWs,Corallivore,A2,1x1
+ Jul18,Very Low,enriched,Detritivore,0,Low CPL,pre-MHWs,Herbivore,A2,1x1
+ Jul18,Very Low,enriched,Grazer,6.19,Low CPL,pre-MHWs,Herbivore,A2,1x1
+ Jul18,Very Low,enriched,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,A2,1x1
+ Jul18,High,enriched,Browser,0,High CPL,pre-MHWs,Herbivore,B3,open
+ Jul18,High,enriched,Corallivore,0,High CPL,pre-MHWs,Corallivore,B3,open
+ Jul18,High,enriched,Detritivore,0,High CPL,pre-MHWs,Herbivore,B3,open
+ Jul18,High,enriched,Grazer,0,High CPL,pre-MHWs,Herbivore,B3,open
+ Jul18,High,enriched,Scraper/Excavator,48.7,High CPL,pre-MHWs,Herbivore,B3,open
+ Jul18,Medium,enriched,Browser,0,High CPL,pre-MHWs,Herbivore,B3,3x3
+ Jul18,Medium,enriched,Corallivore,0,High CPL,pre-MHWs,Corallivore,B3,3x3
+ Jul18,Medium,enriched,Detritivore,0,High CPL,pre-MHWs,Herbivore,B3,3x3
+ Jul18,Medium,enriched,Grazer,13.83,High CPL,pre-MHWs,Herbivore,B3,3x3
+ Jul18,Medium,enriched,Scraper/Excavator,0,High CPL,pre-MHWs,Herbivore,B3,3x3
+ Jul18,Low,enriched,Browser,0,Low CPL,pre-MHWs,Herbivore,B3,2x2
+ Jul18,Low,enriched,Corallivore,0,Low CPL,pre-MHWs,Corallivore,B3,2x2
+ Jul18,Low,enriched,Detritivore,0,Low CPL,pre-MHWs,Herbivore,B3,2x2
+ Jul18,Low,enriched,Grazer,0,Low CPL,pre-MHWs,Herbivore,B3,2x2
+ Jul18,Low,enriched,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,B3,2x2
+ Jul18,Very Low,enriched,Browser,0,Low CPL,pre-MHWs,Herbivore,B3,1x1
+ Jul18,Very Low,enriched,Corallivore,0,Low CPL,pre-MHWs,Corallivore,B3,1x1
+ Jul18,Very Low,enriched,Detritivore,0,Low CPL,pre-MHWs,Herbivore,B3,1x1
+ Jul18,Very Low,enriched,Grazer,1.84,Low CPL,pre-MHWs,Herbivore,B3,1x1
+ Jul18,Very Low,enriched,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,B3,1x1
+ Jul18,High,ambient,Browser,0,High CPL,pre-MHWs,Herbivore,B4,open
+ Jul18,High,ambient,Corallivore,0,High CPL,pre-MHWs,Corallivore,B4,open
+ Jul18,High,ambient,Detritivore,11.39,High CPL,pre-MHWs,Herbivore,B4,open
+ Jul18,High,ambient,Grazer,0,High CPL,pre-MHWs,Herbivore,B4,open
+ Jul18,High,ambient,Scraper/Excavator,0,High CPL,pre-MHWs,Herbivore,B4,open
+ Jul18,Medium,ambient,Browser,0,High CPL,pre-MHWs,Herbivore,B4,3x3
+ Jul18,Medium,ambient,Corallivore,0,High CPL,pre-MHWs,Corallivore,B4,3x3
+ Jul18,Medium,ambient,Detritivore,0,High CPL,pre-MHWs,Herbivore,B4,3x3
+ Jul18,Medium,ambient,Grazer,0,High CPL,pre-MHWs,Herbivore,B4,3x3
+ Jul18,Medium,ambient,Scraper/Excavator,0,High CPL,pre-MHWs,Herbivore,B4,3x3
+ Jul18,Low,ambient,Browser,0,Low CPL,pre-MHWs,Herbivore,B4,2x2
+ Jul18,Low,ambient,Corallivore,0,Low CPL,pre-MHWs,Corallivore,B4,2x2
+ Jul18,Low,ambient,Detritivore,7.57,Low CPL,pre-MHWs,Herbivore,B4,2x2
+ Jul18,Low,ambient,Grazer,7.17,Low CPL,pre-MHWs,Herbivore,B4,2x2
+ Jul18,Low,ambient,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,B4,2x2
+ Jul18,Very Low,ambient,Browser,0,Low CPL,pre-MHWs,Herbivore,B4,1x1
+ Jul18,Very Low,ambient,Corallivore,0,Low CPL,pre-MHWs,Corallivore,B4,1x1
+ Jul18,Very Low,ambient,Detritivore,0,Low CPL,pre-MHWs,Herbivore,B4,1x1
+ Jul18,Very Low,ambient,Grazer,0,Low CPL,pre-MHWs,Herbivore,B4,1x1
+ Jul18,Very Low,ambient,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,B4,1x1
+ Jul18,High,ambient,Browser,0,High CPL,pre-MHWs,Herbivore,C1,open
+ Jul18,High,ambient,Corallivore,0,High CPL,pre-MHWs,Corallivore,C1,open
+ Jul18,High,ambient,Detritivore,16.32,High CPL,pre-MHWs,Herbivore,C1,open
+ Jul18,High,ambient,Grazer,6.19,High CPL,pre-MHWs,Herbivore,C1,open
+ Jul18,High,ambient,Scraper/Excavator,0,High CPL,pre-MHWs,Herbivore,C1,open
+ Jul18,Medium,ambient,Browser,0,High CPL,pre-MHWs,Herbivore,C1,3x3
+ Jul18,Medium,ambient,Corallivore,0,High CPL,pre-MHWs,Corallivore,C1,3x3
+ Jul18,Medium,ambient,Detritivore,0,High CPL,pre-MHWs,Herbivore,C1,3x3
+ Jul18,Medium,ambient,Grazer,13.83,High CPL,pre-MHWs,Herbivore,C1,3x3
+ Jul18,Medium,ambient,Scraper/Excavator,0,High CPL,pre-MHWs,Herbivore,C1,3x3
+ Jul18,Low,ambient,Browser,0,Low CPL,pre-MHWs,Herbivore,C1,2x2
+ Jul18,Low,ambient,Corallivore,0,Low CPL,pre-MHWs,Corallivore,C1,2x2
+ Jul18,Low,ambient,Detritivore,0,Low CPL,pre-MHWs,Herbivore,C1,2x2
+ Jul18,Low,ambient,Grazer,0,Low CPL,pre-MHWs,Herbivore,C1,2x2
+ Jul18,Low,ambient,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,C1,2x2
+ Jul18,Very Low,ambient,Browser,0,Low CPL,pre-MHWs,Herbivore,C1,1x1
+ Jul18,Very Low,ambient,Corallivore,0,Low CPL,pre-MHWs,Corallivore,C1,1x1
+ Jul18,Very Low,ambient,Detritivore,2.71,Low CPL,pre-MHWs,Herbivore,C1,1x1
+ Jul18,Very Low,ambient,Grazer,1.19,Low CPL,pre-MHWs,Herbivore,C1,1x1
+ Jul18,Very Low,ambient,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,C1,1x1
+ Jul18,High,enriched,Browser,0,High CPL,pre-MHWs,Herbivore,C3,open
+ Jul18,High,enriched,Corallivore,0,High CPL,pre-MHWs,Corallivore,C3,open
+ Jul18,High,enriched,Detritivore,0,High CPL,pre-MHWs,Herbivore,C3,open
+ Jul18,High,enriched,Grazer,0,High CPL,pre-MHWs,Herbivore,C3,open
+ Jul18,High,enriched,Scraper/Excavator,0,High CPL,pre-MHWs,Herbivore,C3,open
+ Jul18,Medium,enriched,Browser,0,High CPL,pre-MHWs,Herbivore,C3,3x3
+ Jul18,Medium,enriched,Corallivore,0,High CPL,pre-MHWs,Corallivore,C3,3x3
+ Jul18,Medium,enriched,Detritivore,0,High CPL,pre-MHWs,Herbivore,C3,3x3
+ Jul18,Medium,enriched,Grazer,6.19,High CPL,pre-MHWs,Herbivore,C3,3x3
+ Jul18,Medium,enriched,Scraper/Excavator,0,High CPL,pre-MHWs,Herbivore,C3,3x3
+ Jul18,Low,enriched,Browser,0,Low CPL,pre-MHWs,Herbivore,C3,2x2
+ Jul18,Low,enriched,Corallivore,0,Low CPL,pre-MHWs,Corallivore,C3,2x2
+ Jul18,Low,enriched,Detritivore,0,Low CPL,pre-MHWs,Herbivore,C3,2x2
+ Jul18,Low,enriched,Grazer,6.19,Low CPL,pre-MHWs,Herbivore,C3,2x2
+ Jul18,Low,enriched,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,C3,2x2
+ Jul18,Very Low,enriched,Browser,0,Low CPL,pre-MHWs,Herbivore,C3,1x1
+ Jul18,Very Low,enriched,Corallivore,0,Low CPL,pre-MHWs,Corallivore,C3,1x1
+ Jul18,Very Low,enriched,Detritivore,0,Low CPL,pre-MHWs,Herbivore,C3,1x1
+ Jul18,Very Low,enriched,Grazer,0,Low CPL,pre-MHWs,Herbivore,C3,1x1
+ Jul18,Very Low,enriched,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,C3,1x1
+ Jul18,High,ambient,Browser,0,High CPL,pre-MHWs,Herbivore,D2,open
+ Jul18,High,ambient,Corallivore,0,High CPL,pre-MHWs,Corallivore,D2,open
+ Jul18,High,ambient,Detritivore,0,High CPL,pre-MHWs,Herbivore,D2,open
+ Jul18,High,ambient,Grazer,0,High CPL,pre-MHWs,Herbivore,D2,open
+ Jul18,High,ambient,Scraper/Excavator,0,High CPL,pre-MHWs,Herbivore,D2,open
+ Jul18,Medium,ambient,Browser,0,High CPL,pre-MHWs,Herbivore,D2,3x3
+ Jul18,Medium,ambient,Corallivore,0,High CPL,pre-MHWs,Corallivore,D2,3x3
+ Jul18,Medium,ambient,Detritivore,13.43,High CPL,pre-MHWs,Herbivore,D2,3x3
+ Jul18,Medium,ambient,Grazer,9.81,High CPL,pre-MHWs,Herbivore,D2,3x3
+ Jul18,Medium,ambient,Scraper/Excavator,0,High CPL,pre-MHWs,Herbivore,D2,3x3
+ Jul18,Low,ambient,Browser,0,Low CPL,pre-MHWs,Herbivore,D2,2x2
+ Jul18,Low,ambient,Corallivore,0,Low CPL,pre-MHWs,Corallivore,D2,2x2
+ Jul18,Low,ambient,Detritivore,5.86,Low CPL,pre-MHWs,Herbivore,D2,2x2
+ Jul18,Low,ambient,Grazer,0,Low CPL,pre-MHWs,Herbivore,D2,2x2
+ Jul18,Low,ambient,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,D2,2x2
+ Jul18,Very Low,ambient,Browser,0,Low CPL,pre-MHWs,Herbivore,D2,1x1
+ Jul18,Very Low,ambient,Corallivore,0,Low CPL,pre-MHWs,Corallivore,D2,1x1
+ Jul18,Very Low,ambient,Detritivore,0,Low CPL,pre-MHWs,Herbivore,D2,1x1
+ Jul18,Very Low,ambient,Grazer,0,Low CPL,pre-MHWs,Herbivore,D2,1x1
+ Jul18,Very Low,ambient,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,D2,1x1
+ Jul18,High,enriched,Browser,0,High CPL,pre-MHWs,Herbivore,D4,open
+ Jul18,High,enriched,Corallivore,43.6,High CPL,pre-MHWs,Corallivore,D4,open
+ Jul18,High,enriched,Detritivore,0,High CPL,pre-MHWs,Herbivore,D4,open
+ Jul18,High,enriched,Grazer,0,High CPL,pre-MHWs,Herbivore,D4,open
+ Jul18,High,enriched,Scraper/Excavator,41.99,High CPL,pre-MHWs,Herbivore,D4,open
+ Jul18,Medium,enriched,Browser,0,High CPL,pre-MHWs,Herbivore,D4,3x3
+ Jul18,Medium,enriched,Corallivore,0,High CPL,pre-MHWs,Corallivore,D4,3x3
+ Jul18,Medium,enriched,Detritivore,7.57,High CPL,pre-MHWs,Herbivore,D4,3x3
+ Jul18,Medium,enriched,Grazer,0,High CPL,pre-MHWs,Herbivore,D4,3x3
+ Jul18,Medium,enriched,Scraper/Excavator,22.35,High CPL,pre-MHWs,Herbivore,D4,3x3
+ Jul18,Low,enriched,Browser,0,Low CPL,pre-MHWs,Herbivore,D4,2x2
+ Jul18,Low,enriched,Corallivore,0,Low CPL,pre-MHWs,Corallivore,D4,2x2
+ Jul18,Low,enriched,Detritivore,0,Low CPL,pre-MHWs,Herbivore,D4,2x2
+ Jul18,Low,enriched,Grazer,0,Low CPL,pre-MHWs,Herbivore,D4,2x2
+ Jul18,Low,enriched,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,D4,2x2
+ Jul18,Very Low,enriched,Browser,0,Low CPL,pre-MHWs,Herbivore,D4,1x1
+ Jul18,Very Low,enriched,Corallivore,0,Low CPL,pre-MHWs,Corallivore,D4,1x1
+ Jul18,Very Low,enriched,Detritivore,0,Low CPL,pre-MHWs,Herbivore,D4,1x1
+ Jul18,Very Low,enriched,Grazer,0,Low CPL,pre-MHWs,Herbivore,D4,1x1
+ Jul18,Very Low,enriched,Scraper/Excavator,0,Low CPL,pre-MHWs,Herbivore,D4,1x1
+ Aug19,High,ambient,Browser,0,High CPL,MHWs,Herbivore,A1,open
+ Aug19,High,ambient,Corallivore,5.52,High CPL,MHWs,Corallivore,A1,open
+ Aug19,High,ambient,Detritivore,10.28,High CPL,MHWs,Herbivore,A1,open
+ Aug19,High,ambient,Grazer,8.1,High CPL,MHWs,Herbivore,A1,open
+ Aug19,High,ambient,Scraper/Excavator,0,High CPL,MHWs,Herbivore,A1,open
+ Aug19,Medium,ambient,Browser,0,High CPL,MHWs,Herbivore,A1,3x3
+ Aug19,Medium,ambient,Corallivore,0,High CPL,MHWs,Corallivore,A1,3x3
+ Aug19,Medium,ambient,Detritivore,31.26,High CPL,MHWs,Herbivore,A1,3x3
+ Aug19,Medium,ambient,Grazer,0,High CPL,MHWs,Herbivore,A1,3x3
+ Aug19,Medium,ambient,Scraper/Excavator,0,High CPL,MHWs,Herbivore,A1,3x3
+ Aug19,Low,ambient,Browser,0,Low CPL,MHWs,Herbivore,A1,2x2
+ Aug19,Low,ambient,Corallivore,11.04,Low CPL,MHWs,Corallivore,A1,2x2
+ Aug19,Low,ambient,Detritivore,4.73,Low CPL,MHWs,Herbivore,A1,2x2
+ Aug19,Low,ambient,Grazer,18.6,Low CPL,MHWs,Herbivore,A1,2x2
+ Aug19,Low,ambient,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,A1,2x2
+ Aug19,Very Low,ambient,Browser,0,Low CPL,MHWs,Herbivore,A1,1x1
+ Aug19,Very Low,ambient,Corallivore,0,Low CPL,MHWs,Corallivore,A1,1x1
+ Aug19,Very Low,ambient,Detritivore,11.52,Low CPL,MHWs,Herbivore,A1,1x1
+ Aug19,Very Low,ambient,Grazer,7.65,Low CPL,MHWs,Herbivore,A1,1x1
+ Aug19,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,A1,1x1
+ Aug19,High,enriched,Browser,0,High CPL,MHWs,Herbivore,A2,open
+ Aug19,High,enriched,Corallivore,13.34,High CPL,MHWs,Corallivore,A2,open
+ Aug19,High,enriched,Detritivore,0,High CPL,MHWs,Herbivore,A2,open
+ Aug19,High,enriched,Grazer,0,High CPL,MHWs,Herbivore,A2,open
+ Aug19,High,enriched,Scraper/Excavator,0,High CPL,MHWs,Herbivore,A2,open
+ Aug19,Medium,enriched,Browser,0,High CPL,MHWs,Herbivore,A2,3x3
+ Aug19,Medium,enriched,Corallivore,0,High CPL,MHWs,Corallivore,A2,3x3
+ Aug19,Medium,enriched,Detritivore,23.89,High CPL,MHWs,Herbivore,A2,3x3
+ Aug19,Medium,enriched,Grazer,12.92,High CPL,MHWs,Herbivore,A2,3x3
+ Aug19,Medium,enriched,Scraper/Excavator,0,High CPL,MHWs,Herbivore,A2,3x3
+ Aug19,Low,enriched,Browser,0,Low CPL,MHWs,Herbivore,A2,2x2
+ Aug19,Low,enriched,Corallivore,0,Low CPL,MHWs,Corallivore,A2,2x2
+ Aug19,Low,enriched,Detritivore,0,Low CPL,MHWs,Herbivore,A2,2x2
+ Aug19,Low,enriched,Grazer,0,Low CPL,MHWs,Herbivore,A2,2x2
+ Aug19,Low,enriched,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,A2,2x2
+ Aug19,Very Low,enriched,Browser,0,Low CPL,MHWs,Herbivore,A2,1x1
+ Aug19,Very Low,enriched,Corallivore,0,Low CPL,MHWs,Corallivore,A2,1x1
+ Aug19,Very Low,enriched,Detritivore,0,Low CPL,MHWs,Herbivore,A2,1x1
+ Aug19,Very Low,enriched,Grazer,0,Low CPL,MHWs,Herbivore,A2,1x1
+ Aug19,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,A2,1x1
+ Aug19,High,enriched,Browser,0,High CPL,MHWs,Herbivore,B3,open
+ Aug19,High,enriched,Corallivore,6.04,High CPL,MHWs,Corallivore,B3,open
+ Aug19,High,enriched,Detritivore,0,High CPL,MHWs,Herbivore,B3,open
+ Aug19,High,enriched,Grazer,15.87,High CPL,MHWs,Herbivore,B3,open
+ Aug19,High,enriched,Scraper/Excavator,0,High CPL,MHWs,Herbivore,B3,open
+ Aug19,Medium,enriched,Browser,0,High CPL,MHWs,Herbivore,B3,3x3
+ Aug19,Medium,enriched,Corallivore,5.52,High CPL,MHWs,Corallivore,B3,3x3
+ Aug19,Medium,enriched,Detritivore,0,High CPL,MHWs,Herbivore,B3,3x3
+ Aug19,Medium,enriched,Grazer,21.98,High CPL,MHWs,Herbivore,B3,3x3
+ Aug19,Medium,enriched,Scraper/Excavator,0,High CPL,MHWs,Herbivore,B3,3x3
+ Aug19,Low,enriched,Browser,0,Low CPL,MHWs,Herbivore,B3,2x2
+ Aug19,Low,enriched,Corallivore,0,Low CPL,MHWs,Corallivore,B3,2x2
+ Aug19,Low,enriched,Detritivore,7.57,Low CPL,MHWs,Herbivore,B3,2x2
+ Aug19,Low,enriched,Grazer,12.84,Low CPL,MHWs,Herbivore,B3,2x2
+ Aug19,Low,enriched,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,B3,2x2
+ Aug19,Very Low,enriched,Browser,0,Low CPL,MHWs,Herbivore,B3,1x1
+ Aug19,Very Low,enriched,Corallivore,0,Low CPL,MHWs,Corallivore,B3,1x1
+ Aug19,Very Low,enriched,Detritivore,0,Low CPL,MHWs,Herbivore,B3,1x1
+ Aug19,Very Low,enriched,Grazer,0,Low CPL,MHWs,Herbivore,B3,1x1
+ Aug19,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,B3,1x1
+ Aug19,High,ambient,Browser,0,High CPL,MHWs,Herbivore,B4,open
+ Aug19,High,ambient,Corallivore,0,High CPL,MHWs,Corallivore,B4,open
+ Aug19,High,ambient,Detritivore,0,High CPL,MHWs,Herbivore,B4,open
+ Aug19,High,ambient,Grazer,13.73,High CPL,MHWs,Herbivore,B4,open
+ Aug19,High,ambient,Scraper/Excavator,0,High CPL,MHWs,Herbivore,B4,open
+ Aug19,Medium,ambient,Browser,0,High CPL,MHWs,Herbivore,B4,3x3
+ Aug19,Medium,ambient,Corallivore,0,High CPL,MHWs,Corallivore,B4,3x3
+ Aug19,Medium,ambient,Detritivore,16.12,High CPL,MHWs,Herbivore,B4,3x3
+ Aug19,Medium,ambient,Grazer,5.91,High CPL,MHWs,Herbivore,B4,3x3
+ Aug19,Medium,ambient,Scraper/Excavator,0,High CPL,MHWs,Herbivore,B4,3x3
+ Aug19,Low,ambient,Browser,0,Low CPL,MHWs,Herbivore,B4,2x2
+ Aug19,Low,ambient,Corallivore,5.52,Low CPL,MHWs,Corallivore,B4,2x2
+ Aug19,Low,ambient,Detritivore,0,Low CPL,MHWs,Herbivore,B4,2x2
+ Aug19,Low,ambient,Grazer,0,Low CPL,MHWs,Herbivore,B4,2x2
+ Aug19,Low,ambient,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,B4,2x2
+ Aug19,Very Low,ambient,Browser,0,Low CPL,MHWs,Herbivore,B4,1x1
+ Aug19,Very Low,ambient,Corallivore,0,Low CPL,MHWs,Corallivore,B4,1x1
+ Aug19,Very Low,ambient,Detritivore,0,Low CPL,MHWs,Herbivore,B4,1x1
+ Aug19,Very Low,ambient,Grazer,0,Low CPL,MHWs,Herbivore,B4,1x1
+ Aug19,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,B4,1x1
+ Aug19,High,ambient,Browser,0,High CPL,MHWs,Herbivore,C1,open
+ Aug19,High,ambient,Corallivore,15.65,High CPL,MHWs,Corallivore,C1,open
+ Aug19,High,ambient,Detritivore,0,High CPL,MHWs,Herbivore,C1,open
+ Aug19,High,ambient,Grazer,8.3,High CPL,MHWs,Herbivore,C1,open
+ Aug19,High,ambient,Scraper/Excavator,0,High CPL,MHWs,Herbivore,C1,open
+ Aug19,Medium,ambient,Browser,0,High CPL,MHWs,Herbivore,C1,3x3
+ Aug19,Medium,ambient,Corallivore,11.04,High CPL,MHWs,Corallivore,C1,3x3
+ Aug19,Medium,ambient,Detritivore,0,High CPL,MHWs,Herbivore,C1,3x3
+ Aug19,Medium,ambient,Grazer,12.84,High CPL,MHWs,Herbivore,C1,3x3
+ Aug19,Medium,ambient,Scraper/Excavator,0,High CPL,MHWs,Herbivore,C1,3x3
+ Aug19,Low,ambient,Browser,0,Low CPL,MHWs,Herbivore,C1,2x2
+ Aug19,Low,ambient,Corallivore,0,Low CPL,MHWs,Corallivore,C1,2x2
+ Aug19,Low,ambient,Detritivore,0,Low CPL,MHWs,Herbivore,C1,2x2
+ Aug19,Low,ambient,Grazer,8.3,Low CPL,MHWs,Herbivore,C1,2x2
+ Aug19,Low,ambient,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,C1,2x2
+ Aug19,Very Low,ambient,Browser,0,Low CPL,MHWs,Herbivore,C1,1x1
+ Aug19,Very Low,ambient,Corallivore,0,Low CPL,MHWs,Corallivore,C1,1x1
+ Aug19,Very Low,ambient,Detritivore,0,Low CPL,MHWs,Herbivore,C1,1x1
+ Aug19,Very Low,ambient,Grazer,6.38,Low CPL,MHWs,Herbivore,C1,1x1
+ Aug19,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,C1,1x1
+ Aug19,High,enriched,Browser,0,High CPL,MHWs,Herbivore,C3,open
+ Aug19,High,enriched,Corallivore,4.17,High CPL,MHWs,Corallivore,C3,open
+ Aug19,High,enriched,Detritivore,0,High CPL,MHWs,Herbivore,C3,open
+ Aug19,High,enriched,Grazer,0,High CPL,MHWs,Herbivore,C3,open
+ Aug19,High,enriched,Scraper/Excavator,0,High CPL,MHWs,Herbivore,C3,open
+ Aug19,Medium,enriched,Browser,0,High CPL,MHWs,Herbivore,C3,3x3
+ Aug19,Medium,enriched,Corallivore,15.65,High CPL,MHWs,Corallivore,C3,3x3
+ Aug19,Medium,enriched,Detritivore,7.57,High CPL,MHWs,Herbivore,C3,3x3
+ Aug19,Medium,enriched,Grazer,18.74,High CPL,MHWs,Herbivore,C3,3x3
+ Aug19,Medium,enriched,Scraper/Excavator,127.97,High CPL,MHWs,Herbivore,C3,3x3
+ Aug19,Low,enriched,Browser,0,Low CPL,MHWs,Herbivore,C3,2x2
+ Aug19,Low,enriched,Corallivore,0,Low CPL,MHWs,Corallivore,C3,2x2
+ Aug19,Low,enriched,Detritivore,0,Low CPL,MHWs,Herbivore,C3,2x2
+ Aug19,Low,enriched,Grazer,6.19,Low CPL,MHWs,Herbivore,C3,2x2
+ Aug19,Low,enriched,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,C3,2x2
+ Aug19,Very Low,enriched,Browser,0,Low CPL,MHWs,Herbivore,C3,1x1
+ Aug19,Very Low,enriched,Corallivore,0,Low CPL,MHWs,Corallivore,C3,1x1
+ Aug19,Very Low,enriched,Detritivore,0,Low CPL,MHWs,Herbivore,C3,1x1
+ Aug19,Very Low,enriched,Grazer,0,Low CPL,MHWs,Herbivore,C3,1x1
+ Aug19,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,C3,1x1
+ Aug19,High,ambient,Browser,0,High CPL,MHWs,Herbivore,D2,open
+ Aug19,High,ambient,Corallivore,0,High CPL,MHWs,Corallivore,D2,open
+ Aug19,High,ambient,Detritivore,7.57,High CPL,MHWs,Herbivore,D2,open
+ Aug19,High,ambient,Grazer,2.33,High CPL,MHWs,Herbivore,D2,open
+ Aug19,High,ambient,Scraper/Excavator,0,High CPL,MHWs,Herbivore,D2,open
+ Aug19,Medium,ambient,Browser,0,High CPL,MHWs,Herbivore,D2,3x3
+ Aug19,Medium,ambient,Corallivore,0,High CPL,MHWs,Corallivore,D2,3x3
+ Aug19,Medium,ambient,Detritivore,0,High CPL,MHWs,Herbivore,D2,3x3
+ Aug19,Medium,ambient,Grazer,12.65,High CPL,MHWs,Herbivore,D2,3x3
+ Aug19,Medium,ambient,Scraper/Excavator,0,High CPL,MHWs,Herbivore,D2,3x3
+ Aug19,Low,ambient,Browser,0,Low CPL,MHWs,Herbivore,D2,2x2
+ Aug19,Low,ambient,Corallivore,5.52,Low CPL,MHWs,Corallivore,D2,2x2
+ Aug19,Low,ambient,Detritivore,0,Low CPL,MHWs,Herbivore,D2,2x2
+ Aug19,Low,ambient,Grazer,33.66,Low CPL,MHWs,Herbivore,D2,2x2
+ Aug19,Low,ambient,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,D2,2x2
+ Aug19,Very Low,ambient,Browser,0,Low CPL,MHWs,Herbivore,D2,1x1
+ Aug19,Very Low,ambient,Corallivore,0,Low CPL,MHWs,Corallivore,D2,1x1
+ Aug19,Very Low,ambient,Detritivore,0,Low CPL,MHWs,Herbivore,D2,1x1
+ Aug19,Very Low,ambient,Grazer,4.05,Low CPL,MHWs,Herbivore,D2,1x1
+ Aug19,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,D2,1x1
+ Aug19,High,enriched,Browser,0,High CPL,MHWs,Herbivore,D4,open
+ Aug19,High,enriched,Corallivore,0,High CPL,MHWs,Corallivore,D4,open
+ Aug19,High,enriched,Detritivore,11.65,High CPL,MHWs,Herbivore,D4,open
+ Aug19,High,enriched,Grazer,0,High CPL,MHWs,Herbivore,D4,open
+ Aug19,High,enriched,Scraper/Excavator,221.5,High CPL,MHWs,Herbivore,D4,open
+ Aug19,Medium,enriched,Browser,0,High CPL,MHWs,Herbivore,D4,3x3
+ Aug19,Medium,enriched,Corallivore,0,High CPL,MHWs,Corallivore,D4,3x3
+ Aug19,Medium,enriched,Detritivore,50.03,High CPL,MHWs,Herbivore,D4,3x3
+ Aug19,Medium,enriched,Grazer,8.71,High CPL,MHWs,Herbivore,D4,3x3
+ Aug19,Medium,enriched,Scraper/Excavator,0,High CPL,MHWs,Herbivore,D4,3x3
+ Aug19,Low,enriched,Browser,0,Low CPL,MHWs,Herbivore,D4,2x2
+ Aug19,Low,enriched,Corallivore,0,Low CPL,MHWs,Corallivore,D4,2x2
+ Aug19,Low,enriched,Detritivore,0,Low CPL,MHWs,Herbivore,D4,2x2
+ Aug19,Low,enriched,Grazer,0,Low CPL,MHWs,Herbivore,D4,2x2
+ Aug19,Low,enriched,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,D4,2x2
+ Aug19,Very Low,enriched,Browser,0,Low CPL,MHWs,Herbivore,D4,1x1
+ Aug19,Very Low,enriched,Corallivore,0,Low CPL,MHWs,Corallivore,D4,1x1
+ Aug19,Very Low,enriched,Detritivore,0,Low CPL,MHWs,Herbivore,D4,1x1
+ Aug19,Very Low,enriched,Grazer,0,Low CPL,MHWs,Herbivore,D4,1x1
+ Aug19,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHWs,Herbivore,D4,1x1
+ Aug21,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,A1,open
+ Aug21,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,A1,open
+ Aug21,High,ambient,Detritivore,33.92,High CPL,MHW recovery,Herbivore,A1,open
+ Aug21,High,ambient,Grazer,74.64,High CPL,MHW recovery,Herbivore,A1,open
+ Aug21,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A1,open
+ Aug21,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,A1,3x3
+ Aug21,Medium,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,A1,3x3
+ Aug21,Medium,ambient,Detritivore,138.13,High CPL,MHW recovery,Herbivore,A1,3x3
+ Aug21,Medium,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,A1,3x3
+ Aug21,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A1,3x3
+ Aug21,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Aug21,Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,A1,2x2
+ Aug21,Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Aug21,Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Aug21,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Aug21,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Aug21,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,A1,1x1
+ Aug21,Very Low,ambient,Detritivore,61.85,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Aug21,Very Low,ambient,Grazer,86.53,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Aug21,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Aug21,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,A2,open
+ Aug21,High,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,A2,open
+ Aug21,High,enriched,Detritivore,148.26,High CPL,MHW recovery,Herbivore,A2,open
+ Aug21,High,enriched,Grazer,52.4,High CPL,MHW recovery,Herbivore,A2,open
+ Aug21,High,enriched,Scraper/Excavator,300.65,High CPL,MHW recovery,Herbivore,A2,open
+ Aug21,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,A2,3x3
+ Aug21,Medium,enriched,Corallivore,48.98,High CPL,MHW recovery,Corallivore,A2,3x3
+ Aug21,Medium,enriched,Detritivore,143.26,High CPL,MHW recovery,Herbivore,A2,3x3
+ Aug21,Medium,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,A2,3x3
+ Aug21,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A2,3x3
+ Aug21,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Aug21,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,A2,2x2
+ Aug21,Low,enriched,Detritivore,69.18,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Aug21,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Aug21,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Aug21,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Aug21,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,A2,1x1
+ Aug21,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Aug21,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Aug21,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Aug21,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,B3,open
+ Aug21,High,enriched,Corallivore,10.75,High CPL,MHW recovery,Corallivore,B3,open
+ Aug21,High,enriched,Detritivore,0,High CPL,MHW recovery,Herbivore,B3,open
+ Aug21,High,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,B3,open
+ Aug21,High,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B3,open
+ Aug21,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,B3,3x3
+ Aug21,Medium,enriched,Corallivore,12.19,High CPL,MHW recovery,Corallivore,B3,3x3
+ Aug21,Medium,enriched,Detritivore,90.68,High CPL,MHW recovery,Herbivore,B3,3x3
+ Aug21,Medium,enriched,Grazer,194.85,High CPL,MHW recovery,Herbivore,B3,3x3
+ Aug21,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B3,3x3
+ Aug21,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Aug21,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,B3,2x2
+ Aug21,Low,enriched,Detritivore,39.87,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Aug21,Low,enriched,Grazer,33.04,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Aug21,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Aug21,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Aug21,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,B3,1x1
+ Aug21,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Aug21,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Aug21,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Aug21,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,B4,open
+ Aug21,High,ambient,Corallivore,61.7,High CPL,MHW recovery,Corallivore,B4,open
+ Aug21,High,ambient,Detritivore,0,High CPL,MHW recovery,Herbivore,B4,open
+ Aug21,High,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,B4,open
+ Aug21,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B4,open
+ Aug21,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,B4,3x3
+ Aug21,Medium,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,B4,3x3
+ Aug21,Medium,ambient,Detritivore,202.51,High CPL,MHW recovery,Herbivore,B4,3x3
+ Aug21,Medium,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,B4,3x3
+ Aug21,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B4,3x3
+ Aug21,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Aug21,Low,ambient,Corallivore,1.45,Low CPL,MHW recovery,Corallivore,B4,2x2
+ Aug21,Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Aug21,Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Aug21,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Aug21,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Aug21,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,B4,1x1
+ Aug21,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Aug21,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Aug21,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Aug21,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,C1,open
+ Aug21,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,C1,open
+ Aug21,High,ambient,Detritivore,90.68,High CPL,MHW recovery,Herbivore,C1,open
+ Aug21,High,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,C1,open
+ Aug21,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,C1,open
+ Aug21,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,C1,3x3
+ Aug21,Medium,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,C1,3x3
+ Aug21,Medium,ambient,Detritivore,50.03,High CPL,MHW recovery,Herbivore,C1,3x3
+ Aug21,Medium,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,C1,3x3
+ Aug21,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,C1,3x3
+ Aug21,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Aug21,Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,C1,2x2
+ Aug21,Low,ambient,Detritivore,81.23,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Aug21,Low,ambient,Grazer,19.03,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Aug21,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Aug21,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Aug21,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,C1,1x1
+ Aug21,Very Low,ambient,Detritivore,39.87,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Aug21,Very Low,ambient,Grazer,46.12,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Aug21,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Aug21,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,C3,open
+ Aug21,High,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,C3,open
+ Aug21,High,enriched,Detritivore,0,High CPL,MHW recovery,Herbivore,C3,open
+ Aug21,High,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,C3,open
+ Aug21,High,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,C3,open
+ Aug21,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,C3,3x3
+ Aug21,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,C3,3x3
+ Aug21,Medium,enriched,Detritivore,75.31,High CPL,MHW recovery,Herbivore,C3,3x3
+ Aug21,Medium,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,C3,3x3
+ Aug21,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,C3,3x3
+ Aug21,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Aug21,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,C3,2x2
+ Aug21,Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Aug21,Low,enriched,Grazer,6.46,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Aug21,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Aug21,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Aug21,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,C3,1x1
+ Aug21,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Aug21,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Aug21,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Aug21,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,D2,open
+ Aug21,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,D2,open
+ Aug21,High,ambient,Detritivore,94.19,High CPL,MHW recovery,Herbivore,D2,open
+ Aug21,High,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,D2,open
+ Aug21,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D2,open
+ Aug21,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,D2,3x3
+ Aug21,Medium,ambient,Corallivore,110.33,High CPL,MHW recovery,Corallivore,D2,3x3
+ Aug21,Medium,ambient,Detritivore,90.68,High CPL,MHW recovery,Herbivore,D2,3x3
+ Aug21,Medium,ambient,Grazer,19.03,High CPL,MHW recovery,Herbivore,D2,3x3
+ Aug21,Medium,ambient,Scraper/Excavator,1030.22,High CPL,MHW recovery,Herbivore,D2,3x3
+ Aug21,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Aug21,Low,ambient,Corallivore,23.41,Low CPL,MHW recovery,Corallivore,D2,2x2
+ Aug21,Low,ambient,Detritivore,225.5,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Aug21,Low,ambient,Grazer,21.61,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Aug21,Low,ambient,Scraper/Excavator,127.97,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Aug21,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Aug21,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,D2,1x1
+ Aug21,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Aug21,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Aug21,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Aug21,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,D4,open
+ Aug21,High,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,D4,open
+ Aug21,High,enriched,Detritivore,90.7,High CPL,MHW recovery,Herbivore,D4,open
+ Aug21,High,enriched,Grazer,116.5,High CPL,MHW recovery,Herbivore,D4,open
+ Aug21,High,enriched,Scraper/Excavator,90.21,High CPL,MHW recovery,Herbivore,D4,open
+ Aug21,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ Aug21,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,D4,3x3
+ Aug21,Medium,enriched,Detritivore,90.68,High CPL,MHW recovery,Herbivore,D4,3x3
+ Aug21,Medium,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ Aug21,Medium,enriched,Scraper/Excavator,436.04,High CPL,MHW recovery,Herbivore,D4,3x3
+ Aug21,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Aug21,Low,enriched,Corallivore,14.69,Low CPL,MHW recovery,Corallivore,D4,2x2
+ Aug21,Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Aug21,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Aug21,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Aug21,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Aug21,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,D4,1x1
+ Aug21,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Aug21,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Aug21,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Jul23,High,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,A1,open
+ Jul23,High,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,A1,open
+ Jul23,High,ambient,Detritivore,22.53,High CPL,enrichment recovery,Herbivore,A1,open
+ Jul23,High,ambient,Grazer,44.2,High CPL,enrichment recovery,Herbivore,A1,open
+ Jul23,High,ambient,Scraper/Excavator,147.78,High CPL,enrichment recovery,Herbivore,A1,open
+ Jul23,Medium,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,A1,3x3
+ Jul23,Medium,ambient,Corallivore,9.17,High CPL,enrichment recovery,Corallivore,A1,3x3
+ Jul23,Medium,ambient,Detritivore,276.67,High CPL,enrichment recovery,Herbivore,A1,3x3
+ Jul23,Medium,ambient,Grazer,0,High CPL,enrichment recovery,Herbivore,A1,3x3
+ Jul23,Medium,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,A1,3x3
+ Jul23,Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,A1,2x2
+ Jul23,Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,A1,2x2
+ Jul23,Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,A1,2x2
+ Jul23,Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,A1,2x2
+ Jul23,Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,A1,2x2
+ Jul23,Very Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,A1,1x1
+ Jul23,Very Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,A1,1x1
+ Jul23,Very Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,A1,1x1
+ Jul23,Very Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,A1,1x1
+ Jul23,Very Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,A1,1x1
+ Jul23,High,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,A2,open
+ Jul23,High,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,A2,open
+ Jul23,High,enriched,Detritivore,7.57,High CPL,enrichment recovery,Herbivore,A2,open
+ Jul23,High,enriched,Grazer,28.54,High CPL,enrichment recovery,Herbivore,A2,open
+ Jul23,High,enriched,Scraper/Excavator,1187.9,High CPL,enrichment recovery,Herbivore,A2,open
+ Jul23,Medium,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,A2,3x3
+ Jul23,Medium,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,A2,3x3
+ Jul23,Medium,enriched,Detritivore,236.46,High CPL,enrichment recovery,Herbivore,A2,3x3
+ Jul23,Medium,enriched,Grazer,174.16,High CPL,enrichment recovery,Herbivore,A2,3x3
+ Jul23,Medium,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,A2,3x3
+ Jul23,Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,A2,2x2
+ Jul23,Low,enriched,Corallivore,13.93,Low CPL,enrichment recovery,Corallivore,A2,2x2
+ Jul23,Low,enriched,Detritivore,4.73,Low CPL,enrichment recovery,Herbivore,A2,2x2
+ Jul23,Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,A2,2x2
+ Jul23,Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,A2,2x2
+ Jul23,Very Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,A2,1x1
+ Jul23,Very Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,A2,1x1
+ Jul23,Very Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,A2,1x1
+ Jul23,Very Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,A2,1x1
+ Jul23,Very Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,A2,1x1
+ Jul23,High,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,B3,open
+ Jul23,High,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,B3,open
+ Jul23,High,enriched,Detritivore,0,High CPL,enrichment recovery,Herbivore,B3,open
+ Jul23,High,enriched,Grazer,227.19,High CPL,enrichment recovery,Herbivore,B3,open
+ Jul23,High,enriched,Scraper/Excavator,647.07,High CPL,enrichment recovery,Herbivore,B3,open
+ Jul23,Medium,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,B3,3x3
+ Jul23,Medium,enriched,Corallivore,17.72,High CPL,enrichment recovery,Corallivore,B3,3x3
+ Jul23,Medium,enriched,Detritivore,0,High CPL,enrichment recovery,Herbivore,B3,3x3
+ Jul23,Medium,enriched,Grazer,33.04,High CPL,enrichment recovery,Herbivore,B3,3x3
+ Jul23,Medium,enriched,Scraper/Excavator,391.6,High CPL,enrichment recovery,Herbivore,B3,3x3
+ Jul23,Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,B3,2x2
+ Jul23,Low,enriched,Corallivore,6.97,Low CPL,enrichment recovery,Corallivore,B3,2x2
+ Jul23,Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,B3,2x2
+ Jul23,Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,B3,2x2
+ Jul23,Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,B3,2x2
+ Jul23,Very Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,B3,1x1
+ Jul23,Very Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,B3,1x1
+ Jul23,Very Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,B3,1x1
+ Jul23,Very Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,B3,1x1
+ Jul23,Very Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,B3,1x1
+ Jul23,High,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,B4,open
+ Jul23,High,ambient,Corallivore,61.35,High CPL,enrichment recovery,Corallivore,B4,open
+ Jul23,High,ambient,Detritivore,22.53,High CPL,enrichment recovery,Herbivore,B4,open
+ Jul23,High,ambient,Grazer,169.2,High CPL,enrichment recovery,Herbivore,B4,open
+ Jul23,High,ambient,Scraper/Excavator,56.19,High CPL,enrichment recovery,Herbivore,B4,open
+ Jul23,Medium,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,B4,3x3
+ Jul23,Medium,ambient,Corallivore,16.27,High CPL,enrichment recovery,Corallivore,B4,3x3
+ Jul23,Medium,ambient,Detritivore,46.46,High CPL,enrichment recovery,Herbivore,B4,3x3
+ Jul23,Medium,ambient,Grazer,78.12,High CPL,enrichment recovery,Herbivore,B4,3x3
+ Jul23,Medium,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,B4,3x3
+ Jul23,Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,B4,2x2
+ Jul23,Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,B4,2x2
+ Jul23,Low,ambient,Detritivore,52.67,Low CPL,enrichment recovery,Herbivore,B4,2x2
+ Jul23,Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,B4,2x2
+ Jul23,Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,B4,2x2
+ Jul23,Very Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,B4,1x1
+ Jul23,Very Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,B4,1x1
+ Jul23,Very Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,B4,1x1
+ Jul23,Very Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,B4,1x1
+ Jul23,Very Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,B4,1x1
+ Jul23,High,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,C1,open
+ Jul23,High,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,C1,open
+ Jul23,High,ambient,Detritivore,52.67,High CPL,enrichment recovery,Herbivore,C1,open
+ Jul23,High,ambient,Grazer,0,High CPL,enrichment recovery,Herbivore,C1,open
+ Jul23,High,ambient,Scraper/Excavator,546.62,High CPL,enrichment recovery,Herbivore,C1,open
+ Jul23,Medium,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,C1,3x3
+ Jul23,Medium,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,C1,3x3
+ Jul23,Medium,ambient,Detritivore,127.49,High CPL,enrichment recovery,Herbivore,C1,3x3
+ Jul23,Medium,ambient,Grazer,0,High CPL,enrichment recovery,Herbivore,C1,3x3
+ Jul23,Medium,ambient,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,C1,3x3
+ Jul23,Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,C1,2x2
+ Jul23,Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,C1,2x2
+ Jul23,Low,ambient,Detritivore,108.03,Low CPL,enrichment recovery,Herbivore,C1,2x2
+ Jul23,Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,C1,2x2
+ Jul23,Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,C1,2x2
+ Jul23,Very Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,C1,1x1
+ Jul23,Very Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,C1,1x1
+ Jul23,Very Low,ambient,Detritivore,4.73,Low CPL,enrichment recovery,Herbivore,C1,1x1
+ Jul23,Very Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,C1,1x1
+ Jul23,Very Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,C1,1x1
+ Jul23,High,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,C3,open
+ Jul23,High,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,C3,open
+ Jul23,High,enriched,Detritivore,287.85,High CPL,enrichment recovery,Herbivore,C3,open
+ Jul23,High,enriched,Grazer,0,High CPL,enrichment recovery,Herbivore,C3,open
+ Jul23,High,enriched,Scraper/Excavator,808.35,High CPL,enrichment recovery,Herbivore,C3,open
+ Jul23,Medium,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,C3,3x3
+ Jul23,Medium,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,C3,3x3
+ Jul23,Medium,enriched,Detritivore,127.49,High CPL,enrichment recovery,Herbivore,C3,3x3
+ Jul23,Medium,enriched,Grazer,0,High CPL,enrichment recovery,Herbivore,C3,3x3
+ Jul23,Medium,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,C3,3x3
+ Jul23,Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,C3,2x2
+ Jul23,Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,C3,2x2
+ Jul23,Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,C3,2x2
+ Jul23,Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,C3,2x2
+ Jul23,Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,C3,2x2
+ Jul23,Very Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,C3,1x1
+ Jul23,Very Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,C3,1x1
+ Jul23,Very Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,C3,1x1
+ Jul23,Very Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,C3,1x1
+ Jul23,Very Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,C3,1x1
+ Jul23,High,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,D2,open
+ Jul23,High,ambient,Corallivore,0,High CPL,enrichment recovery,Corallivore,D2,open
+ Jul23,High,ambient,Detritivore,21.05,High CPL,enrichment recovery,Herbivore,D2,open
+ Jul23,High,ambient,Grazer,0,High CPL,enrichment recovery,Herbivore,D2,open
+ Jul23,High,ambient,Scraper/Excavator,377.22,High CPL,enrichment recovery,Herbivore,D2,open
+ Jul23,Medium,ambient,Browser,0,High CPL,enrichment recovery,Herbivore,D2,3x3
+ Jul23,Medium,ambient,Corallivore,113.07,High CPL,enrichment recovery,Corallivore,D2,3x3
+ Jul23,Medium,ambient,Detritivore,149.18,High CPL,enrichment recovery,Herbivore,D2,3x3
+ Jul23,Medium,ambient,Grazer,311.64,High CPL,enrichment recovery,Herbivore,D2,3x3
+ Jul23,Medium,ambient,Scraper/Excavator,174.97,High CPL,enrichment recovery,Herbivore,D2,3x3
+ Jul23,Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,D2,2x2
+ Jul23,Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,D2,2x2
+ Jul23,Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,D2,2x2
+ Jul23,Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,D2,2x2
+ Jul23,Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,D2,2x2
+ Jul23,Very Low,ambient,Browser,0,Low CPL,enrichment recovery,Herbivore,D2,1x1
+ Jul23,Very Low,ambient,Corallivore,0,Low CPL,enrichment recovery,Corallivore,D2,1x1
+ Jul23,Very Low,ambient,Detritivore,0,Low CPL,enrichment recovery,Herbivore,D2,1x1
+ Jul23,Very Low,ambient,Grazer,0,Low CPL,enrichment recovery,Herbivore,D2,1x1
+ Jul23,Very Low,ambient,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,D2,1x1
+ Jul23,High,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,D4,open
+ Jul23,High,enriched,Corallivore,59.04,High CPL,enrichment recovery,Corallivore,D4,open
+ Jul23,High,enriched,Detritivore,90.68,High CPL,enrichment recovery,Herbivore,D4,open
+ Jul23,High,enriched,Grazer,0,High CPL,enrichment recovery,Herbivore,D4,open
+ Jul23,High,enriched,Scraper/Excavator,708.69,High CPL,enrichment recovery,Herbivore,D4,open
+ Jul23,Medium,enriched,Browser,0,High CPL,enrichment recovery,Herbivore,D4,3x3
+ Jul23,Medium,enriched,Corallivore,0,High CPL,enrichment recovery,Corallivore,D4,3x3
+ Jul23,Medium,enriched,Detritivore,173.22,High CPL,enrichment recovery,Herbivore,D4,3x3
+ Jul23,Medium,enriched,Grazer,25.39,High CPL,enrichment recovery,Herbivore,D4,3x3
+ Jul23,Medium,enriched,Scraper/Excavator,0,High CPL,enrichment recovery,Herbivore,D4,3x3
+ Jul23,Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,D4,2x2
+ Jul23,Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,D4,2x2
+ Jul23,Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,D4,2x2
+ Jul23,Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,D4,2x2
+ Jul23,Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,D4,2x2
+ Jul23,Very Low,enriched,Browser,0,Low CPL,enrichment recovery,Herbivore,D4,1x1
+ Jul23,Very Low,enriched,Corallivore,0,Low CPL,enrichment recovery,Corallivore,D4,1x1
+ Jul23,Very Low,enriched,Detritivore,0,Low CPL,enrichment recovery,Herbivore,D4,1x1
+ Jul23,Very Low,enriched,Grazer,0,Low CPL,enrichment recovery,Herbivore,D4,1x1
+ Jul23,Very Low,enriched,Scraper/Excavator,0,Low CPL,enrichment recovery,Herbivore,D4,1x1
+ Jul22,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,A1,open
+ Jul22,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,A1,open
+ Jul22,High,ambient,Detritivore,376.24,High CPL,MHW recovery,Herbivore,A1,open
+ Jul22,High,ambient,Grazer,62.58,High CPL,MHW recovery,Herbivore,A1,open
+ Jul22,High,ambient,Scraper/Excavator,439.93,High CPL,MHW recovery,Herbivore,A1,open
+ Jul22,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,A1,3x3
+ Jul22,Medium,ambient,Corallivore,9.17,High CPL,MHW recovery,Corallivore,A1,3x3
+ Jul22,Medium,ambient,Detritivore,0,High CPL,MHW recovery,Herbivore,A1,3x3
+ Jul22,Medium,ambient,Grazer,49.25,High CPL,MHW recovery,Herbivore,A1,3x3
+ Jul22,Medium,ambient,Scraper/Excavator,391.6,High CPL,MHW recovery,Herbivore,A1,3x3
+ Jul22,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Jul22,Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,A1,2x2
+ Jul22,Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Jul22,Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Jul22,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A1,2x2
+ Jul22,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Jul22,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,A1,1x1
+ Jul22,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Jul22,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Jul22,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A1,1x1
+ Jul22,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,A2,open
+ Jul22,High,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,A2,open
+ Jul22,High,enriched,Detritivore,304.1,High CPL,MHW recovery,Herbivore,A2,open
+ Jul22,High,enriched,Grazer,9.68,High CPL,MHW recovery,Herbivore,A2,open
+ Jul22,High,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A2,open
+ Jul22,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,A2,3x3
+ Jul22,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,A2,3x3
+ Jul22,Medium,enriched,Detritivore,115.6,High CPL,MHW recovery,Herbivore,A2,3x3
+ Jul22,Medium,enriched,Grazer,6.46,High CPL,MHW recovery,Herbivore,A2,3x3
+ Jul22,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,A2,3x3
+ Jul22,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Jul22,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,A2,2x2
+ Jul22,Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Jul22,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Jul22,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A2,2x2
+ Jul22,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Jul22,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,A2,1x1
+ Jul22,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Jul22,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Jul22,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,A2,1x1
+ Jul22,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,B3,open
+ Jul22,High,enriched,Corallivore,40.7,High CPL,MHW recovery,Corallivore,B3,open
+ Jul22,High,enriched,Detritivore,0,High CPL,MHW recovery,Herbivore,B3,open
+ Jul22,High,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,B3,open
+ Jul22,High,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B3,open
+ Jul22,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,B3,3x3
+ Jul22,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,B3,3x3
+ Jul22,Medium,enriched,Detritivore,158.69,High CPL,MHW recovery,Herbivore,B3,3x3
+ Jul22,Medium,enriched,Grazer,47.28,High CPL,MHW recovery,Herbivore,B3,3x3
+ Jul22,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B3,3x3
+ Jul22,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Jul22,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,B3,2x2
+ Jul22,Low,enriched,Detritivore,39.87,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Jul22,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Jul22,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B3,2x2
+ Jul22,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Jul22,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,B3,1x1
+ Jul22,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Jul22,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Jul22,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B3,1x1
+ Jul22,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,B4,open
+ Jul22,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,B4,open
+ Jul22,High,ambient,Detritivore,0,High CPL,MHW recovery,Herbivore,B4,open
+ Jul22,High,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,B4,open
+ Jul22,High,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B4,open
+ Jul22,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,B4,3x3
+ Jul22,Medium,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,B4,3x3
+ Jul22,Medium,ambient,Detritivore,46.89,High CPL,MHW recovery,Herbivore,B4,3x3
+ Jul22,Medium,ambient,Grazer,96.04,High CPL,MHW recovery,Herbivore,B4,3x3
+ Jul22,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,B4,3x3
+ Jul22,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Jul22,Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,B4,2x2
+ Jul22,Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Jul22,Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Jul22,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B4,2x2
+ Jul22,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Jul22,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,B4,1x1
+ Jul22,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Jul22,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Jul22,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,B4,1x1
+ Jul22,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,C1,open
+ Jul22,High,ambient,Corallivore,3.02,High CPL,MHW recovery,Corallivore,C1,open
+ Jul22,High,ambient,Detritivore,79.96,High CPL,MHW recovery,Herbivore,C1,open
+ Jul22,High,ambient,Grazer,113.06,High CPL,MHW recovery,Herbivore,C1,open
+ Jul22,High,ambient,Scraper/Excavator,115.52,High CPL,MHW recovery,Herbivore,C1,open
+ Jul22,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,C1,3x3
+ Jul22,Medium,ambient,Corallivore,5.52,High CPL,MHW recovery,Corallivore,C1,3x3
+ Jul22,Medium,ambient,Detritivore,31.2,High CPL,MHW recovery,Herbivore,C1,3x3
+ Jul22,Medium,ambient,Grazer,34.1,High CPL,MHW recovery,Herbivore,C1,3x3
+ Jul22,Medium,ambient,Scraper/Excavator,188.66,High CPL,MHW recovery,Herbivore,C1,3x3
+ Jul22,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Jul22,Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,C1,2x2
+ Jul22,Low,ambient,Detritivore,90.68,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Jul22,Low,ambient,Grazer,56.12,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Jul22,Low,ambient,Scraper/Excavator,202.25,Low CPL,MHW recovery,Herbivore,C1,2x2
+ Jul22,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Jul22,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,C1,1x1
+ Jul22,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Jul22,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Jul22,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C1,1x1
+ Jul22,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,C3,open
+ Jul22,High,enriched,Corallivore,61.35,High CPL,MHW recovery,Corallivore,C3,open
+ Jul22,High,enriched,Detritivore,108.03,High CPL,MHW recovery,Herbivore,C3,open
+ Jul22,High,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,C3,open
+ Jul22,High,enriched,Scraper/Excavator,550.86,High CPL,MHW recovery,Herbivore,C3,open
+ Jul22,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,C3,3x3
+ Jul22,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,C3,3x3
+ Jul22,Medium,enriched,Detritivore,108.03,High CPL,MHW recovery,Herbivore,C3,3x3
+ Jul22,Medium,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,C3,3x3
+ Jul22,Medium,enriched,Scraper/Excavator,292.48,High CPL,MHW recovery,Herbivore,C3,3x3
+ Jul22,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Jul22,Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,C3,2x2
+ Jul22,Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Jul22,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Jul22,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C3,2x2
+ Jul22,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Jul22,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,C3,1x1
+ Jul22,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Jul22,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Jul22,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,C3,1x1
+ Jul22,High,ambient,Browser,0,High CPL,MHW recovery,Herbivore,D2,open
+ Jul22,High,ambient,Corallivore,0,High CPL,MHW recovery,Corallivore,D2,open
+ Jul22,High,ambient,Detritivore,179.32,High CPL,MHW recovery,Herbivore,D2,open
+ Jul22,High,ambient,Grazer,0,High CPL,MHW recovery,Herbivore,D2,open
+ Jul22,High,ambient,Scraper/Excavator,300.65,High CPL,MHW recovery,Herbivore,D2,open
+ Jul22,Medium,ambient,Browser,0,High CPL,MHW recovery,Herbivore,D2,3x3
+ Jul22,Medium,ambient,Corallivore,5.52,High CPL,MHW recovery,Corallivore,D2,3x3
+ Jul22,Medium,ambient,Detritivore,239.86,High CPL,MHW recovery,Herbivore,D2,3x3
+ Jul22,Medium,ambient,Grazer,25.39,High CPL,MHW recovery,Herbivore,D2,3x3
+ Jul22,Medium,ambient,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D2,3x3
+ Jul22,Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Jul22,Low,ambient,Corallivore,38.34,Low CPL,MHW recovery,Corallivore,D2,2x2
+ Jul22,Low,ambient,Detritivore,2.74,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Jul22,Low,ambient,Grazer,4.05,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Jul22,Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D2,2x2
+ Jul22,Very Low,ambient,Browser,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Jul22,Very Low,ambient,Corallivore,0,Low CPL,MHW recovery,Corallivore,D2,1x1
+ Jul22,Very Low,ambient,Detritivore,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Jul22,Very Low,ambient,Grazer,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Jul22,Very Low,ambient,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D2,1x1
+ Jul22,High,enriched,Browser,0,High CPL,MHW recovery,Herbivore,D4,open
+ Jul22,High,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,D4,open
+ Jul22,High,enriched,Detritivore,108.03,High CPL,MHW recovery,Herbivore,D4,open
+ Jul22,High,enriched,Grazer,0,High CPL,MHW recovery,Herbivore,D4,open
+ Jul22,High,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D4,open
+ Jul22,Medium,enriched,Browser,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ Jul22,Medium,enriched,Corallivore,0,High CPL,MHW recovery,Corallivore,D4,3x3
+ Jul22,Medium,enriched,Detritivore,90.68,High CPL,MHW recovery,Herbivore,D4,3x3
+ Jul22,Medium,enriched,Grazer,452.46,High CPL,MHW recovery,Herbivore,D4,3x3
+ Jul22,Medium,enriched,Scraper/Excavator,0,High CPL,MHW recovery,Herbivore,D4,3x3
+ Jul22,Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Jul22,Low,enriched,Corallivore,21,Low CPL,MHW recovery,Corallivore,D4,2x2
+ Jul22,Low,enriched,Detritivore,4.73,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Jul22,Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Jul22,Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D4,2x2
+ Jul22,Very Low,enriched,Browser,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Jul22,Very Low,enriched,Corallivore,0,Low CPL,MHW recovery,Corallivore,D4,1x1
+ Jul22,Very Low,enriched,Detritivore,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Jul22,Very Low,enriched,Grazer,0,Low CPL,MHW recovery,Herbivore,D4,1x1
+ Jul22,Very Low,enriched,Scraper/Excavator,0,Low CPL,MHW recovery,Herbivore,D4,1x1
