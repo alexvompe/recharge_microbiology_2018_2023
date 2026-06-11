@@ -1,20 +1,21 @@
-# Author: Connor Draney
+# Authors: Connor Draney and Alex Vompe
 # Date: 12/5/2024
-# Title: PERMANOVA on all timepoints
+# Title: Symbiodiniaceae PERMANOVA tests
 
 library(tidyverse)
 library(vegan)
 library(pairwiseAdonis)
+library(here)
 
-early_profs_abs <- read_rds(here::here("./analysis data/early_profs_abs.rds"))
-early_profs <- early_profs_abs[-(c(3,4,7,8))]
+early_profs_abs = read_rds(here::here("./analysis data/early_profs_abs.rds"))
+early_profs = early_profs_abs[-(c(3,4,7,8))]
 early_profs = mutate(early_profs, .after = "cpl",
                    cp_1 = case_when(cpl == "1x1" ~ "low",
                                     cpl == "2x2" ~ "low",
                                     cpl == "3x3" ~ "high",
                                     cpl == "open" ~ "high"))
 
-prof_abs <- read_rds(here::here("./prof_abs.rds"))
+prof_abs <- read_rds(here::here("./analysis data/prof_abs.rds"))
 late_prof <- subset(prof_abs, prof_abs$intact == "intact")
 cpl <- c()
 for (i in late_prof$id){
@@ -47,7 +48,7 @@ profile_comb_2 <- comb_profs_abs[tot_comb > 0, ]
 
 set.seed(123) #reproducible p-values with permutations
 prof_perm <- adonis2(prof_comb ~ date+nutrient+cp_1, data = profile_comb_2, method = "bray", perms = 999)
-prof_perm #no effect by nutrients of cpl, try pairwise adonis by date
+prof_perm #no effect by nutrients or cpl, try pairwise adonis by date
 
 set.seed(123)
 pair_prof <- pairwise.adonis2(prof_comb ~ date, data = profile_comb_2, method = "bray", perms = 999)

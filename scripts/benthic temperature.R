@@ -7,6 +7,7 @@ library(ggplot2)
 library(tidyr)
 library(patchwork)
 library(here)
+library(heatwaveR)
 
 # Data --------------------------------------------------------------------
 # data from Moorea Coral Reef LTER core time series, bottom mounted termistors:
@@ -109,7 +110,7 @@ p1=ggplot(lter.out_hist_subset, aes(x=day, y=temp_c))+
 p2=ggplot(lter.out_hist_subset, aes(x=day, y=cumstress))+
   geom_line()+
   theme_classic()+
-  geom_hline(yintercept = 1, linetype = "longdash", color = "darkred")+
+  geom_hline(yintercept = 4, linetype = "longdash", color = "darkred")+
   geom_vline(xintercept = as.Date("2018-07-02"), color="darkblue")+
   geom_vline(xintercept = as.Date("2023-08-02"), color="darkblue")+
   scale_x_date(breaks = date_breaks("years"), labels = date_format("%Y"))+
@@ -123,8 +124,116 @@ p = p1 + p2 + plot_layout(ncol = 1) +
   theme(plot.tag = element_text(face = 'bold'))
 
 ggsave(plot = p, "recharge temperature.tiff", units = "mm",
-       scale = 0.8, height = 185, width = 300, dpi = 1000)
+       scale = 0.8, height = 185, width = 300, dpi = 600)
 
 #2023 MHW severity
 lter.out_hist_subset = subset(lter.out, day >= '2023-01-01')
 max(lter.out_hist_subset$cumstress)#1.13
+
+# Marine Heatwave Criteria exploration
+#Testing
+lter.out_test = subset(temperature, '2023-03-17' <= day &
+                         day <= '2023-04-22')
+p1=ggplot(lter.out_test, aes(x=time_use, y=temperature_c))+
+  geom_line()+
+  geom_hline(yintercept = 29, color="darkred", linetype = "longdash")+
+  theme_bw()+
+  scale_x_datetime(breaks = breaks_width("days"),labels = date_format("%D"))+
+  labs(x="Day", y=expression("Daily Temperature"~(degree*C)))+
+  theme(axis.text.x = element_text(angle = 90))
+
+#But is it a MWH? Needs to have >5 days above 90th percentile
+temperature.0=subset(temperature, site=="LTER00")
+temperature.0$day=as.Date(temperature.0$day, '%Y-%m-%d')
+temperature.0$day=ymd(temperature.0$day)
+
+thermTemp.0=temperature.0
+
+# format time and date
+#left the time_local and time_utc columns alone, unaltered. created new date column to reformat
+thermTemp.0$date_use = ymd_hms(thermTemp.0$time_local)
+thermTemp.0$day_mo_yr = format(thermTemp.0$date_use, '%Y-%m-%d')
+thermTemp.0$day = format(thermTemp.0$date_use, '%d') #making new factor for each day (number but as a factor)
+thermTemp.0$month = format(thermTemp.0$date_use, '%m') #making new factor for each month (number but as a factor)
+thermTemp.0$year = format(thermTemp.0$date_use, '%y') 
+
+thermTemp.0$day=as.factor(thermTemp.0$day)
+thermTemp.0$month=as.factor(thermTemp.0$month)
+thermTemp.0$year=as.factor(thermTemp.0$year)
+thermTemp.0$date_use=as.Date(thermTemp.0$date_use, '%Y-%m-%d')
+
+# subsetting data from August 2018 to July 2020. this will become the line for the high thermal stress year
+thermTemp_2018_2020=subset(thermTemp.0, date_use>="2018-07-01" & date_use<="2020-08-31")
+thermTemp_2018_2020_mean = thermTemp_2018_2020 %>%
+  group_by(day, month, year) %>%
+  summarize(
+    mean_daily_temp = mean(temperature_c),
+    quant = NA,
+    .groups = "drop"
+  )
+thermTemp_2018_2020_mean$timeframe=as.factor("2018to2020")
+
+thermTemp_2018_2020_mean$date= as.Date(with(thermTemp_2018_2020_mean, paste(month, day, year,sep="-")), format="%m-%d-%Y")
+years_2018_2020_mean=thermTemp_2018_2020_mean[c(1:3,7,6,4,5)]
+#making the upper and lower (mean +- sd) columns
+years_2018_2020_mean$temp_upper=years_2018_2020_mean$mean_daily_temp + years_2018_2020_mean$quant
+years_2018_2020_mean$temp_lower=years_2018_2020_mean$mean_daily_temp - years_2018_2020_mean$quant
+colnames(years_2018_2020_mean)[6]="temp"
+
+# creating a new df with only data up to Dec 31 2017. this will become the mean line and SD
+# is >700 rows long because each temp value is listed twice so that it plots over 2 years
+thermTemp_toDec2017=subset(thermTemp.0, date_use<"2017-12-31")
+thermTemp_toDec2017_mean = thermTemp_toDec2017 %>%
+  group_by(day, month) %>%
+  summarize(
+    mean_daily_temp = mean(temperature_c),
+    quant = quantile(temperature_c, probs = 0.9),
+    .groups = "drop"
+  )
+
+#creating a factor column for this year
+thermTemp_toDec2017_mean$timeframe=as.factor("mean")
+
+thermTemp_toDec2017_mean=merge(thermTemp_2018_2020_mean[c(1:3,7)], thermTemp_toDec2017_mean, by=c("day", "month"))
+years_toDec2017_mean=thermTemp_toDec2017_mean[c(1:4,7,5,6)] #reordering columns
+#making the upper and lower (mean +- sd) columns
+years_toDec2017_mean$temp_upper=years_toDec2017_mean$mean_daily_temp + years_toDec2017_mean$quant
+years_toDec2017_mean$temp_lower=years_toDec2017_mean$mean_daily_temp - years_toDec2017_mean$quant
+colnames(years_toDec2017_mean)[6]="temp"
+
+data=rbind(years_toDec2017_mean, years_2018_2020_mean)
+
+data=merge(data, thermTemp.0, by=c("day", "month", "year"))
+
+##Figure 2 Panel 3
+p3=ggplot(data)+
+  geom_ribbon(aes(x=date_use, ymin=temp_lower, ymax=temp_upper, fill=timeframe), alpha=0.2)+
+  geom_hline(yintercept=29, linetype=2, color="black", linewidth = 1.2)+
+  geom_line(aes(x=date_use, y=temp, color=timeframe))+
+  scale_color_manual(values = c("purple", "black")) +
+  scale_fill_manual(values = c("purple", "pink"))+
+  scale_x_date(breaks = date_breaks("months"), 
+               labels = date_format("%b%y"), 
+               limits=as.Date(c('2018-07-01', '2020-08-31')))+
+  labs(x="Date", y=expression("Temperature " ( degree*C)))+
+  theme_bw()+
+  theme(axis.text.x = element_text(colour="black", angle=45, vjust=1, hjust=1), 
+        axis.text.y = element_text(colour="black"))+
+  theme(text = element_text(size = 30))+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black"))+
+  theme(legend.position = "none")
+
+
+# Test Hobday thresholds for MHWs during the study
+lter.day = lter.day %>% 
+  rename(t = day, temp = temp_c)
+lter.day = na.omit(lter.day)
+
+clim = ts2clm(lter.day, climatologyPeriod = c("2004-12-31", "2024-01-01"))
+
+mhw = detect_event(clim)
+write.csv(mhw$event, "Hobday MHWs Recharge.csv")
+#notes: since there isn't 30 years of history, the 90th percentile
+#is overinflated, resulting in 16 MHWs, which is too loose.
+#I will push back against using the Hobday definition.

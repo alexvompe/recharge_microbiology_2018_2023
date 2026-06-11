@@ -368,7 +368,19 @@ summary_mortality_survivors$date_bin = factor(summary_mortality_survivors$date_b
                                                    "MHW recovery",
                                                    "MHW + nutrient recovery"))
 
-#stats layers
+#Plots and stats
+strip1 = strip_themed(background_x = elem_list_rect(fill = c("black",
+                                                             "#E69F00",
+                                                             "#56B4E9")),
+                      text_x = elem_list_text(color = c("white", "black",
+                                                        "black")),
+                      background_y = elem_list_rect(fill = c("darkred",
+                                                             "#4a2b7a")),
+                      text_y = elem_list_text(color = c("white", "white")))
+
+cp_1.labs = c("high cpl", "low cpl")
+names(cp_1.labs) = c("high","low")
+
 #alpha
 stat.test.aret = subset(df_alpha_survivors,
                         Coral=="Aret" & date_bin != "pre-MHWs") %>%
@@ -397,6 +409,29 @@ stat.test = rbind(stat.test.aret, stat.test.plob, stat.test.poc)
 stat.test$x = stat.test$x - 1
 stat.test$xmin = stat.test$xmin - 1
 stat.test$xmax = stat.test$xmax - 1
+
+p_alpha = ggplot(subset(summary_alpha_survivors,
+                        date_bin != "pre-MHWs"),
+                 aes(x=date_bin, y=Shannon, color=Nutrients))+
+  theme_classic()+
+  facet_grid2(cp_1~Coral, strip=strip1,
+              labeller = labeller(cp_1 = cp_1.labs))+
+  geom_point(size=2)+
+  geom_line(aes(group=Nutrients))+
+  geom_errorbar(width=0.2, aes(ymin=Shannon-ci,
+                               ymax=Shannon+ci))+
+  scale_color_manual(values = c("blue", "darkgreen"))+
+  stat_pvalue_manual(stat.test,  label = "p.adj.signif", hide.ns = "p.adj",
+                     size = 6, fontface = 2, linetype = 0)+
+  labs(y="Shannon Diversity Index",x="Stage")+
+  theme(legend.position = "none",
+        legend.background = element_blank(),
+        legend.box.background = element_rect(colour = "black"),
+        panel.spacing.x = unit(0, "lines"),
+        axis.title.x = element_blank(),
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line.x = element_blank())
 
 #dispersion
 stat.test.aret = subset(df_dispersion_survivors,
@@ -427,77 +462,12 @@ stat.test$x = stat.test$x - 1
 stat.test$xmin = stat.test$xmin - 1
 stat.test$xmax = stat.test$xmax - 1
 
-#mortality
-stat.test.aret = subset(df_alpha_survivors,
-                        Coral=="Aret" & date_bin != "pre-MHWs") %>%
-  group_by(Coral, cp_1, date_bin) %>%
-  pairwise_wilcox_test(percent_dead ~ Nutrients) %>%
-  adjust_pvalue(method = "holm") %>%
-  add_significance("p.adj") %>%
-  add_xy_position(x = "date_bin", fun="mean_ci")
-
-stat.test.plob = subset(df_alpha_survivors,
-                        Coral=="Plob" & date_bin != "pre-MHWs") %>%
-  group_by(Coral, cp_1, date_bin) %>%
-  pairwise_wilcox_test(percent_dead ~ Nutrients) %>%
-  adjust_pvalue(method = "holm") %>%
-  add_significance("p.adj") %>%
-  add_xy_position(x = "date_bin", fun="mean_ci")
-
-stat.test.poc = subset(df_alpha_survivors,
-                       Coral=="Poc" & date_bin != "pre-MHWs") %>%
-  group_by(Coral, cp_1, date_bin) %>%
-  pairwise_wilcox_test(percent_dead ~ Nutrients) %>%
-  adjust_pvalue(method = "holm") %>%
-  add_significance("p.adj") %>%
-  add_xy_position(x = "date_bin", fun="mean_ci")
-stat.test = rbind(stat.test.aret, stat.test.plob, stat.test.poc)
-stat.test$x = stat.test$x - 1
-stat.test$xmin = stat.test$xmin - 1
-stat.test$xmax = stat.test$xmax - 1
-
-#plots
-strip1 = strip_themed(background_x = elem_list_rect(fill = c("black",
-                                                             "#E69F00",
-                                                             "#56B4E9")),
-                      text_x = elem_list_text(color = c("white", "black",
-                                                        "black")),
-                      background_y = elem_list_rect(fill = c("darkred",
-                                                             "darkblue")),
-                      text_y = elem_list_text(color = c("white", "white")))
-
-cp_1.labs = c("high cpl", "low cpl")
-names(cp_1.labs) = c("high","low")
-
-p_alpha = ggplot(subset(summary_alpha_survivors,
-                        date_bin!="pre-MHWs"),
-                 aes(x=date_bin, y=Shannon, color=Nutrients))+
-  theme_classic()+
-  facet_grid2(cp_1~Coral, strip=strip1,
-              labeller = labeller(cp_1 = cp_1.labs))+
-  geom_point(size=2)+
-  geom_line(aes(group=Nutrients))+
-  geom_errorbar(width=0.2, aes(ymin=Shannon-ci,
-                               ymax=Shannon+ci))+
-  scale_color_manual(values = c("blue", "darkgreen"))+
-  stat_pvalue_manual(stat.test,  label = "p.adj.signif", hide.ns = "p.adj",
-                     size = 6, fontface = 2, linetype = 0)+
-  labs(y="Shannon Diversity Index",x="Stage")+
-  theme(legend.position = "none",
-        legend.background = element_blank(),
-        legend.box.background = element_rect(colour = "black"),
-        panel.spacing.x = unit(0, "lines"),
-        axis.title.x = element_blank(),
-        axis.text.x = element_blank(),
-        axis.ticks.x = element_blank(),
-        axis.line.x = element_blank())
-
 strip2 = strip_themed(background_y = elem_list_rect(fill = c("darkred",
-                                                             "darkblue")),
+                                                             "#4a2b7a")),
                       text_y = elem_list_text(color = c("white", "white")))
 
 p_dispersion = ggplot(subset(summary_dispersion_survivors,
-                        date_bin!="pre-MHWs"),
+                             date_bin != "pre-MHWs"),
                  aes(x=date_bin, y=dispersion, color=Nutrients))+
   theme_classic()+
   facet_grid2(cp_1~Coral, strip=strip2,
@@ -515,169 +485,12 @@ p_dispersion = ggplot(subset(summary_dispersion_survivors,
         legend.box.background = element_rect(colour = "black"),
         panel.spacing.x = unit(0, "lines"),
         strip.text.x = element_blank(),
-        axis.title.x = element_blank(),
-        axis.text.x = element_blank(),
-        axis.ticks.x = element_blank(),
-        axis.line.x = element_blank())
-
-p_mortality = ggplot(subset(summary_mortality_survivors,
-                             date_bin!="pre-MHWs"),
-                      aes(x=date_bin, y=percent_dead, color=Nutrients))+
-  theme_classic()+
-  facet_grid2(cp_1~Coral, strip=strip2,
-              labeller = labeller(cp_1 = cp_1.labs))+
-  geom_point(size=2)+
-  geom_line(aes(group=Nutrients))+
-  geom_errorbar(width=0.2, aes(ymin=percent_dead-ci,
-                               ymax=percent_dead+ci))+
-  scale_color_manual(values = c("blue", "darkgreen"))+
-  stat_pvalue_manual(stat.test,  label = "p.adj.signif", hide.ns = "p.adj",
-                     size = 6, fontface = 2, linetype = 0)+
-  labs(y="% of Colony Dead",x="Stage")+
-  theme(legend.position = "none",
-        legend.background = element_blank(),
-        legend.box.background = element_rect(colour = "black"),
-        panel.spacing.x = unit(0, "lines"),
-        strip.text.x = element_blank(),
         axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
 
-p1 = ggarrange(p_alpha,NULL,p_dispersion,NULL,p_mortality,ncol=1,
-              labels=c("(a)","","(b)","","(c)"),
-              heights=c(1,-0.35,1,-0.35,1),align = "hv")
+p = p_alpha + p_dispersion + 
+  plot_layout(ncol = 1)+
+  plot_annotation(tag_levels = 'a', tag_prefix = '(', tag_suffix = ')') &
+  theme(plot.tag = element_text(face = 'bold'))
 
-ggsave(plot=p, "survivor micro and success correlation_stats.tiff",
-       units="mm", height = 370, width = 300, scale=0.6, dpi=1000)
-
-# Panel with date bins of complete mortality
-#Those who died during the MHW stage
-df_success = read_excel(here::here("./analysis data/data frames and csvs/coral success.xlsx"))
-df_success = na.omit(df_success) #remove corals with no data
-
-mhw_dead = subset(df_success, Date == "Aug20" & percent_dead == 100)
-
-mhw_dead = mhw_dead$ID #29 corals
-
-df_alpha_mhw_dead = dplyr::filter(df_alpha, ID %in% mhw_dead)
-df_alpha_mhw_dead = na.omit(df_alpha_mhw_dead)
-df_dispersion_mhw_dead = dplyr::filter(df_dispersion, ID %in% mhw_dead)
-df_dispersion_mhw_dead = na.omit(df_dispersion_mhw_dead)
-
-df_alpha_mhw_dead$death_bin = "MHWs"
-df_dispersion_mhw_dead$death_bin = "MHWs"
-
-#Those who died during the MHW recovery stage
-mhw_survived = subset(df_success, Date == "Aug20" & percent_dead < 100)
-mhw_survived_ids = mhw_survived$ID
-dead_by_rec_end = subset(df_success, Date=="Jul22" & percent_dead==100)
-
-died_by_rec_end_after_MHWs = dplyr::filter(dead_by_rec_end,
-                                           ID %in% mhw_survived_ids)
-recovery_bin_dead = died_by_rec_end_after_MHWs$ID #29 corals
-
-df_alpha_mhw_rec_dead = dplyr::filter(df_alpha, ID %in% recovery_bin_dead)
-df_alpha_mhw_rec_dead = na.omit(df_alpha_mhw_rec_dead)
-df_dispersion_mhw_rec_dead = dplyr::filter(df_dispersion, ID %in% recovery_bin_dead)
-df_dispersion_mhw_rec_dead = na.omit(df_dispersion_mhw_rec_dead)
-
-df_alpha_mhw_rec_dead$death_bin = "MHW recovery"
-df_dispersion_mhw_rec_dead$death_bin = "MHW recovery"
-
-#Those who died in the MHW + nutrients recovery stage
-mhw_rec_survived = subset(df_success, Date == "Jul22" & percent_dead < 100)
-mhw_rec_survived_ids = mhw_rec_survived$ID
-dead_by_end = subset(df_success, Date=="Jul23" & percent_dead==100)
-
-died_by_end_after_MHW_rec = dplyr::filter(dead_by_end,
-                                           ID %in% mhw_rec_survived_ids)
-recovery_nut_bin_dead = died_by_end_after_MHW_rec$ID #36 corals
-
-df_alpha_mhw_nut_rec_dead = dplyr::filter(df_alpha,
-                                          ID %in% recovery_nut_bin_dead)
-df_alpha_mhw_nut_rec_dead = na.omit(df_alpha_mhw_nut_rec_dead)
-df_dispersion_mhw_nut_rec_dead = dplyr::filter(df_dispersion,
-                                          ID %in% recovery_nut_bin_dead)
-df_dispersion_mhw_nut_rec_dead = na.omit(df_dispersion_mhw_nut_rec_dead)
-
-df_alpha_mhw_nut_rec_dead$death_bin = "MHW + nutrient recovery"
-df_dispersion_mhw_nut_rec_dead$death_bin = "MHW + nutrient recovery"
-
-#combine into new data frame
-df_death = rbind(df_alpha_mhw_dead, df_alpha_mhw_rec_dead,
-                 df_alpha_mhw_nut_rec_dead)
-df_death_dispersion = rbind(df_dispersion_mhw_dead,
-                            df_dispersion_mhw_rec_dead,
-                            df_dispersion_mhw_nut_rec_dead)
-
-df_death$death_bin = factor(df_death$death_bin,
-                            levels = c("MHWs",
-                                       "MHW recovery",
-                                       "MHW + nutrient recovery"))
-df_death_dispersion$death_bin = factor(df_death_dispersion$death_bin,
-                            levels = c("MHWs",
-                                       "MHW recovery",
-                                       "MHW + nutrient recovery"))
-death_alpha_summary = summarySE(df_death, measurevar = "Shannon",
-                                groupvars = c("death_bin",
-                                              "Coral",
-                                              "Nutrients",
-                                              "cp_1"))
-death_dispersion_summary = summarySE(df_death_dispersion,
-                                     measurevar = "dispersion",
-                                groupvars = c("death_bin",
-                                              "Coral",
-                                              "Nutrients",
-                                              "cp_1"))
-
-#stats
-#nothing is significant
-
-#plots
-p_alpha_m = ggplot(death_alpha_summary,
-                 aes(x=death_bin, y=Shannon, color=Nutrients))+
-  theme_classic()+
-  facet_grid2(cp_1~Coral, strip=strip1,
-              labeller = labeller(cp_1 = cp_1.labs),
-              scales = "free_y",
-              independent = "y")+
-  geom_point(size=2)+
-  geom_line(aes(group=Nutrients))+
-  geom_errorbar(width=0.2, aes(ymin=Shannon-ci,
-                               ymax=Shannon+ci))+
-  scale_color_manual(values = c("blue", "darkgreen"))+
-  labs(y="Shannon Diversity Index",x="Death Stage")+
-  theme(legend.position = "right",
-        legend.background = element_blank(),
-        legend.box.background = element_rect(colour = "black"),
-        panel.spacing.x = unit(0, "lines"),
-        axis.title.x = element_blank(),
-        axis.text.x = element_blank(),
-        axis.ticks.x = element_blank(),
-        axis.line.x = element_blank())
-
-p_dispersion_m = ggplot(death_dispersion_summary,
-                      aes(x=death_bin, y=dispersion, color=Nutrients))+
-  theme_classic()+
-  facet_grid2(cp_1~Coral, strip=strip2,
-              labeller = labeller(cp_1 = cp_1.labs),
-              scales = "free_y",
-              independent = "y")+
-  geom_point(size=2)+
-  geom_line(aes(group=Nutrients))+
-  geom_errorbar(width=0.2, aes(ymin=dispersion-ci,
-                               ymax=dispersion+ci))+
-  scale_color_manual(values = c("blue", "darkgreen"))+
-  labs(y="Dispersion",x="Death Stage")+
-  theme(legend.position = "none",
-        legend.background = element_blank(),
-        legend.box.background = element_rect(colour = "black"),
-        axis.text.x = element_text(angle = 45, vjust=1, hjust = 1),
-        panel.spacing.x = unit(0, "lines"),
-        strip.text.x = element_blank())
-
-p2 = ggarrange(p_alpha_m,NULL,p_dispersion_m,ncol=1,labels=c("(d)","","(e)"),
-              heights = c(1,-0.25,1), align = "hv")
-
-p = p1+p2+plot_layout(widths = c(0.9, 1))
-
-ggsave(plot=p, "micro and host correlation figure.tiff",
-       units="mm", height = 185, width = 300, scale=1.1, dpi=1000)
+ggsave(plot=p, "survivor microbiomes.tiff",
+       units="mm", height = 185, width = 300, scale=0.8, dpi=600)

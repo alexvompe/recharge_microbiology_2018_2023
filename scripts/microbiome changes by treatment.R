@@ -209,6 +209,7 @@ dispersion_summary = dispersion_summary[-c(17), ]
 
 #stats
 shapiro.test(df_dispersion_trt$dispersion)#non-normal
+pairwise_wilcox_test(df_dispersion_trt, dispersion ~ Coral)
 stat.test.aret = subset(df_dispersion_trt,
                         date_bin != "pre-MHWs" & Coral=="Aret") %>%
   group_by(Coral, cp_1, date_bin) %>%

@@ -12,6 +12,8 @@ library(ggh4x)
 library(rstatix)
 library(phyloseq)
 library(patchwork)
+library(lme4)
+library(lmerTest)
 
 # load and QC the data====
 df = read_excel(here::here("./analysis data/data frames and csvs/coral success.xlsx"))
@@ -32,7 +34,7 @@ df$percent_bleached = as.numeric(df$percent_bleached)
 df$percent_dead = as.numeric(df$percent_dead)
 df = na.omit(df)
 
-df_trt = subset(df, Date != "Aug20" & Date != "Jul18")
+df_trt = subset(df, Date != "Jul18" & Date != "Aug20")
 
 #Quick summary mortality stats on all corals
 pairwise_wilcox_test(df_trt, percent_dead~Coral)
@@ -137,7 +139,21 @@ p3 = ggplot(subset(summary_bleaching, Coral=="Poc"), aes(x=date_bin,
         axis.line.y = element_blank(),
         legend.box.background = element_rect(colour = "black"))
 
-#mortality panel
+#mortality panel stats
+#Check significance of nutrients:stage:CPL using repeated measures LME
+mod_aret = lmer(percent_dead ~ Nutrients:date_bin:cp_1 + (1|Plot/ID),
+                data = subset(df_trt, Coral=="Aret" & date_bin != "pre-MHWs"))
+anova(mod_aret)
+
+mod_plob = lmer(percent_dead ~ Nutrients:date_bin:cp_1 + (1|Plot/ID),
+                data = subset(df_trt, Coral=="Plob" & date_bin != "pre-MHWs"))
+anova(mod_plob)
+
+mod_poc = lmer(percent_dead ~ Nutrients:date_bin:cp_1 + (1|Plot/ID),
+                data = subset(df_trt, Coral=="Poc" & date_bin != "pre-MHWs"))
+anova(mod_poc)
+
+#Non-parametric pairwise comparisons with holm adjustment
 stat.test.aret = subset(df_trt, Coral=="Aret" & date_bin != "pre-MHWs") %>%
   group_by(Coral, cp_1, date_bin) %>%
   pairwise_wilcox_test(percent_dead ~ Nutrients) %>%
@@ -161,6 +177,7 @@ stat.test.poc = subset(df_trt, Coral=="Poc" & date_bin != "pre-MHWs") %>%
   add_significance("p.adj") %>%
   add_xy_position(x = "date_bin", fun="mean_ci")
 
+#Plots
 p4 = ggplot(subset(summary_mortality, Coral=="Aret"), aes(x=date_bin,
                                              y=percent_dead,
                                              color=Nutrients))+
@@ -251,7 +268,7 @@ p4 = ggplot(subset(summary_mortality, Coral=="Aret"), aes(x=date_bin,
   stat_pvalue_manual(stat.test.aret,  label = "p.adj.signif", hide.ns = "p.adj",
                      size = 6, fontface = 2, linetype = 0)+
   ylim(-10, 110)+
-  labs(x="Stage", y="% of Colony Dead")+
+  labs(x="Stage", y="% Dead Tissue")+
   theme(axis.text.x = element_text(angle = 45, vjust=1, hjust=1),
         axis.title.x = element_blank(),
         legend.position = "none",
@@ -271,7 +288,7 @@ p5 = ggplot(subset(summary_mortality, Coral=="Plob"), aes(x=date_bin,
   stat_pvalue_manual(stat.test.plob,  label = "p.adj.signif", hide.ns = "p.adj",
                      size = 6, fontface = 2, linetype = 0)+
   ylim(-10, 110)+
-  labs(x="Stage", y="% of Colony Dead")+
+  labs(x="Stage", y="% Dead Tissue")+
   theme(axis.text.x = element_text(angle = 45, vjust=1, hjust=1),
         legend.position = "none",
         strip.text.y = element_blank(),
@@ -294,7 +311,7 @@ p6 = ggplot(subset(summary_mortality, Coral=="Poc"), aes(x=date_bin,
   stat_pvalue_manual(stat.test.poc,  label = "p.adj.signif", hide.ns = "p.adj",
                      size = 6, fontface = 2, linetype = 0)+
   ylim(-10, 110)+
-  labs(x="Stage", y="% of Colony Dead")+
+  labs(x="Stage", y="% Dead Tissue")+
   theme(axis.text.x = element_text(angle = 45, vjust=1, hjust=1),
         legend.background = element_blank(),
         legend.box.background = element_rect(colour = "black"),

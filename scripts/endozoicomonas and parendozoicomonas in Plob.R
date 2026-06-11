@@ -102,10 +102,6 @@ p = ggplot(df_plob, aes(x=Date, y=relabund, color=Symbiont))+
            xmax = which(lvls==vline.level.2), ymin = -Inf,
            ymax = Inf,
            alpha = .2,fill = "darkred")+
-  annotate("rect", xmin = which(lvls==vline.level.2)+6.5, 
-           xmax = which(lvls==vline.level.2)+7.5, ymin = -Inf,
-           ymax = Inf,
-           alpha = .08,fill = "darkred")+
   theme(axis.text.x = element_text(angle = 45, vjust=1, hjust=1),
         axis.title.y.right = element_text(color = "darkred"),
         axis.text.y.right = element_text(color = "darkred"),

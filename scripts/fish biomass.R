@@ -12,10 +12,8 @@ library(ggh4x)
 df = read_csv(here::here("./analysis data/data frames and csvs/fish biomass.csv"))
 df$Stage = factor(df$Stage, levels = c("pre-MHWs","MHWs","MHW recovery",
                                        "enrichment recovery"))
-# df = subset(df, Stage=="MHW recovery" | Stage=="enrichment recovery")
 df = subset(df, functionalgroup!="Browser")
 
-# Not normalized by coral species----
 #Figure
 strip = strip_themed(background_x = elem_list_rect(fill = c("blue","darkgreen")),
                      text_x = elem_list_text(color = c(rep("white", 2))),
@@ -26,7 +24,7 @@ strip = strip_themed(background_x = elem_list_rect(fill = c("blue","darkgreen"))
 nutrient.labs = c("Ambient", "Enriched")
 names(nutrient.labs) = c("ambient","enriched")
 
-p = ggplot(df, aes(x=Stage, y=biomass,
+p = ggplot(df, aes(x=Stage, y=log(biomass),
                        color=functionalgroup))+
   theme_classic()+
   facet_grid2(CPL~nutrients, strip = strip,
@@ -34,7 +32,7 @@ p = ggplot(df, aes(x=Stage, y=biomass,
   geom_boxplot(position = position_dodge(width=1))+
   stat_summary(geom="point", fun = "mean",
                position = position_dodge(width=1), size = 3)+
-  labs(x="Experiment Stage", y="Biomass (g)")+
+  labs(x="Experiment Stage", y="ln(Biomass (g))")+
   scale_color_manual(values = c("turquoise","red","navyblue","#eb6841"),
                      "Fish Functional Group")+
   theme(legend.background = element_blank(),
@@ -101,3 +99,49 @@ write_csv(test7, "lowcpl_grazer.csv")
 test8 = data.frame(tukey_hsd(aov(biomass~nutrients*Stage,
                                  data = df_lowcpl_scex)))
 write_csv(test8, "lowcpl_scex.csv")
+
+#Evaluate cage success for pre-MHWs and MHWs
+df_preMHWs = subset(df, Stage=="pre-MHWs")
+tukey_hsd(aov(biomass~CPL, data = df_preMHWs))#p = 0.00578
+
+df_MHWs = subset(df, Stage=="MHWs")
+tukey_hsd(aov(biomass~CPL, data = df_MHWs))#p = 0.0268
+
+df_MHWrec = subset(df, Stage=="MHW recovery")
+tukey_hsd(aov(biomass~CPL, data = df_MHWrec))
+
+df_enrrec = subset(df, Stage=="enrichment recovery")
+tukey_hsd(aov(biomass~CPL, data = df_enrrec))
+
+df_preMHWsCorallivore = subset(df, Stage=="pre-MHWs" &
+                                 functionalgroup=="Corallivore")
+tukey_hsd(aov(biomass~CPL, data = df_preMHWsCorallivore))#ns
+
+df_preMHWsDetritivore = subset(df, Stage=="pre-MHWs" &
+                                 functionalgroup=="Detritivore")
+tukey_hsd(aov(biomass~CPL, data = df_preMHWsDetritivore))#ns
+
+df_preMHWsGrazer = subset(df, Stage=="pre-MHWs" &
+                                 functionalgroup=="Grazer")
+tukey_hsd(aov(biomass~CPL, data = df_preMHWsGrazer))#ns
+
+df_preMHWsScex = subset(df, Stage=="pre-MHWs" &
+                                 functionalgroup=="Scraper/Excavator")
+tukey_hsd(aov(biomass~CPL, data = df_preMHWsScex))#p = 0.0401
+
+
+df_MHWsCorallivore = subset(df, Stage=="MHWs" &
+                                 functionalgroup=="Corallivore")
+tukey_hsd(aov(biomass~CPL, data = df_MHWsCorallivore))#ns
+
+df_MHWsDetritivore = subset(df, Stage=="MHWs" &
+                                 functionalgroup=="Detritivore")
+tukey_hsd(aov(biomass~CPL, data = df_MHWsDetritivore))#p = 0.0301
+
+df_MHWsGrazer = subset(df, Stage=="MHWs" &
+                            functionalgroup=="Grazer")
+tukey_hsd(aov(biomass~CPL, data = df_MHWsGrazer))#ns
+
+df_MHWsScex = subset(df, Stage=="MHWs" &
+                          functionalgroup=="Scraper/Excavator")
+tukey_hsd(aov(biomass~CPL, data = df_MHWsScex))#ns

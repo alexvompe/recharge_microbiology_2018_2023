@@ -26,7 +26,7 @@ p_profiles = ggplot(df_assigned, aes(x=Date, y=Relative_Abundance,
                                "#CAF0F8", "darkorange3","orange3","darkorange",
                                "orange2", "orange", "darkgrey"),
                     "Dominant Type Profile")+
-  ylab("Relative Abundance")+
+  ylab("Average Relative Abundance")+
   theme(legend.background = element_blank(),
         legend.box.background = element_rect(colour = "black"))
 
