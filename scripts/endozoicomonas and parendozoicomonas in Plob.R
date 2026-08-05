@@ -92,7 +92,7 @@ p = ggplot(df_plob, aes(x=Date, y=relabund, color=Symbiont))+
                     ymax=(percent_dead+ci)/100),
                 width=0.2)+
   scale_y_continuous(sec.axis = sec_axis(transform = ~.*100,
-                                         name = "% of Colony Dead"),
+                                         name = "% Dead Tissue"),
                      "Symbiont Relative Abundance")+
   annotate("rect", xmin = which(lvls==vline.level.1)-0.5, 
            xmax = which(lvls==vline.level.1)+0.5, ymin = -Inf,
@@ -152,7 +152,7 @@ p_full = p_stages + p +
         legend.box.background = element_rect(colour = "black"),
         plot.tag = element_text(face = 'bold'))
 
-ggsave(plot=p_full, "Plob_main text.tiff", units="mm",
+ggsave(plot=p_full, "Plob_main text.png", units="mm",
        scale=0.7, height=370, width=300, dpi=600)
 
 # Analyses----

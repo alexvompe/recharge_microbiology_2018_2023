@@ -7,6 +7,7 @@ library(tidyverse)
 library(rstatix)
 library(here)
 library(ggh4x)
+library(Rmisc)
 
 # Load and QC the data----
 df = read_csv(here::here("./analysis data/data frames and csvs/fish biomass.csv"))
@@ -24,15 +25,21 @@ strip = strip_themed(background_x = elem_list_rect(fill = c("blue","darkgreen"))
 nutrient.labs = c("Ambient", "Enriched")
 names(nutrient.labs) = c("ambient","enriched")
 
-p = ggplot(df, aes(x=Stage, y=log(biomass),
+df$biomass_t = log(df$biomass + 1)#ln(x+1) transform
+
+df_summary = summarySE(data = df, measurevar = "biomass_t",
+                       groupvars = c("Stage", "functionalgroup",
+                                     "CPL", "nutrients"))
+
+p = ggplot(df_summary, aes(x=Stage, y=biomass_t,
                        color=functionalgroup))+
   theme_classic()+
   facet_grid2(CPL~nutrients, strip = strip,
               labeller = labeller(nutrients = nutrient.labs))+
-  geom_boxplot(position = position_dodge(width=1))+
-  stat_summary(geom="point", fun = "mean",
-               position = position_dodge(width=1), size = 3)+
-  labs(x="Experiment Stage", y="ln(Biomass (g))")+
+  geom_point(size = 2, position = position_dodge(width = 0.5))+
+  geom_errorbar(aes(ymin = biomass_t - ci, ymax = biomass_t + ci),
+                width = 0.2, position = position_dodge(width = 0.5))+
+  labs(x="Experiment Stage", y="ln(Biomass (g) + 1)")+
   scale_color_manual(values = c("turquoise","red","navyblue","#eb6841"),
                      "Fish Functional Group")+
   theme(legend.background = element_blank(),
@@ -40,10 +47,20 @@ p = ggplot(df, aes(x=Stage, y=log(biomass),
         axis.text.x = element_text(angle = 45, hjust = 1,
                                    vjust = 1))
 
-ggsave(plot = p, "fish biomass figure.tiff", dpi=600,
-       units = "mm", height = 185, width = 300, scale = 0.8)
+ggsave(plot = p, "fish biomass figure.tiff", dpi=400,
+       units = "mm", height = 185, width = 300, scale = 0.7)
 
-#Stats
+##Stats
+#Global comparisons
+#CPL
+pairwise_wilcox_test(biomass~CPL, data = df) #p=3.20e-35
+
+#Nutrients
+pairwise_wilcox_test(biomass~nutrients, data = df)#p=0.006
+
+#Nutrients*CPL
+anova_test(biomass~CPL:nutrients, data = df)#p=1.56e-18
+
 #High CPL
 df_highcpl = subset(df, CPL=="High CPL")
 
@@ -100,48 +117,15 @@ test8 = data.frame(tukey_hsd(aov(biomass~nutrients*Stage,
                                  data = df_lowcpl_scex)))
 write_csv(test8, "lowcpl_scex.csv")
 
-#Evaluate cage success for pre-MHWs and MHWs
+#Evaluate cage success for each stage
 df_preMHWs = subset(df, Stage=="pre-MHWs")
-tukey_hsd(aov(biomass~CPL, data = df_preMHWs))#p = 0.00578
+pairwise_wilcox_test(biomass~CPL, data = df_preMHWs)#p = 0.12
 
 df_MHWs = subset(df, Stage=="MHWs")
-tukey_hsd(aov(biomass~CPL, data = df_MHWs))#p = 0.0268
+pairwise_wilcox_test(biomass~CPL, data = df_MHWs)#p = 9.96e-4
 
 df_MHWrec = subset(df, Stage=="MHW recovery")
-tukey_hsd(aov(biomass~CPL, data = df_MHWrec))
+pairwise_wilcox_test(biomass~CPL, data = df_MHWrec)#p = 8.33e-17
 
 df_enrrec = subset(df, Stage=="enrichment recovery")
-tukey_hsd(aov(biomass~CPL, data = df_enrrec))
-
-df_preMHWsCorallivore = subset(df, Stage=="pre-MHWs" &
-                                 functionalgroup=="Corallivore")
-tukey_hsd(aov(biomass~CPL, data = df_preMHWsCorallivore))#ns
-
-df_preMHWsDetritivore = subset(df, Stage=="pre-MHWs" &
-                                 functionalgroup=="Detritivore")
-tukey_hsd(aov(biomass~CPL, data = df_preMHWsDetritivore))#ns
-
-df_preMHWsGrazer = subset(df, Stage=="pre-MHWs" &
-                                 functionalgroup=="Grazer")
-tukey_hsd(aov(biomass~CPL, data = df_preMHWsGrazer))#ns
-
-df_preMHWsScex = subset(df, Stage=="pre-MHWs" &
-                                 functionalgroup=="Scraper/Excavator")
-tukey_hsd(aov(biomass~CPL, data = df_preMHWsScex))#p = 0.0401
-
-
-df_MHWsCorallivore = subset(df, Stage=="MHWs" &
-                                 functionalgroup=="Corallivore")
-tukey_hsd(aov(biomass~CPL, data = df_MHWsCorallivore))#ns
-
-df_MHWsDetritivore = subset(df, Stage=="MHWs" &
-                                 functionalgroup=="Detritivore")
-tukey_hsd(aov(biomass~CPL, data = df_MHWsDetritivore))#p = 0.0301
-
-df_MHWsGrazer = subset(df, Stage=="MHWs" &
-                            functionalgroup=="Grazer")
-tukey_hsd(aov(biomass~CPL, data = df_MHWsGrazer))#ns
-
-df_MHWsScex = subset(df, Stage=="MHWs" &
-                          functionalgroup=="Scraper/Excavator")
-tukey_hsd(aov(biomass~CPL, data = df_MHWsScex))#ns
+pairwise_wilcox_test(biomass~CPL, data = df_enrrec)#p = 3.67e-19
